@@ -419,8 +419,8 @@ This  GNUGPL3  license  is  for  only  Professional  Edition with  DOTWEB5.0 Tut
 
 
 
-Syntax for DOTWEB5.0 Machine Learning
-=====================================
+Syntax for DOTWEB5.0 with Oakjava7 Machine Learning
+==================================================
 
 
 // Beginning of DOTWEB5.0 ML Program
@@ -471,7 +471,7 @@ j7out.println("");
 
 // Mention Type as .exe or .dll 
 
-<DOTWEB5 Package='ML' Database='wnosql' J7Lib='{Java7ML}' Names='sampleml1,misctype1' Type='exe'  
+<OakJava7 Package='ML' Database='wnosql' J7Lib='{Java7ML}' Names='sampleml1,misctype1' Type='exe'  
 
 
 
@@ -521,7 +521,7 @@ public static void Method2()
 
 
 // Close  the Dotweb5.0 program 
-</DOTWEB5>
+</OakJava7>
 
 
 // End of Dotweb5.0 Program
