@@ -423,7 +423,7 @@ Syntax for DOTWEB5.0 with Oakjava7 Machine Learning
 ==================================================
 
 
-// Beginning of DOTWEB5.0 ML Program
+// Beginning of OakJava7 ML Program
 
  <OJ7ML> 
 
@@ -465,7 +465,7 @@ j7out.println("");
 
 //Mention name of Package value in Package always mention wnosql as a default value for the Database. 
 
-// Mention DOTWEB5.0 library files for machine Learning  in J7Lib eg) Java7ML 
+// Mention OakJava7 library files for machine Learning  in J7Lib eg) Java7ML 
 
 // Mention Package as ML , Names as sampleml1 for namespace name and class name as misctype1
 
@@ -520,11 +520,11 @@ public static void Method2()
 '>
 
 
-// Close  the Dotweb5.0 program 
+// Close  the OakJava7 program 
 </OakJava7>
 
 
-// End of Dotweb5.0 Program
+// End of Oakjava7 program
 </OJ7ML>
 
 
