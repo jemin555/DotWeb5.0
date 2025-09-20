@@ -1,0 +1,133 @@
+Evidence and Dotweb3.0 Program about Creation  of  DOTWEB5 Programming Language
+=================================================================================
+
+DOTWEB3.0 Research Documentation
+=================================
+
+ WEBJc7.web7
+===========
+
+<DOTWEB3>
+// load <CDOLLARS> util packages
+<USE> <CDOLLARS>.util;
+
+<PACK> Javac7
+
+{
+
+
+
+
+
+
+
+
+
+<CLASS> WEBJ7
+  {
+
+  
+
+
+
+
+
+
+
+
+
+
+
+          public void main()
+
+        {
+
+          
+
+
+
+ <TRY>
+
+      {
+
+//wilmix code
+// if no arguments are there
+ if (args.Length <= 0)
+      {
+
+        <PRINTLN>("============================================================================");
+         <PRINTLN>("DOTWEB5.0 @JeminInformationTechnology (C)  2024  All Rights  Reserved ");
+         <PRINTLN>("============================================================================");
+         <PRINTLN>("To  compile  java7.0 files use  => WebJ5  <filename.java7> ");
+           <PRINTLN>("To  compile  DOTWEB5.0 files use  => WEBJ5  <filename.java7> ");
+           <PRINTLN>("To  compile  oakjava7.0 files use  => javac7  <filename.java7> ");
+         
+           <PRINTLN>("To  compile and   create  a  prototype software use  => WEBJ5 <filename.web>");
+           <PRINTLN>("To  compile and   create a  DataScience and MachineLearning application use  \n" +
+                "=> WEBJ5 <filename.oj7ua>");
+
+
+            
+           <PRINTLN>("============================================================================");
+      }
+      else
+
+
+
+
+{
+J7JP.Serialize(args);
+
+ArrayList arr =J7JP.DeSerialize(args.Length);
+
+// This object array contains two or  four webjc7 files and it will compile and create a prototype .exe software
+Object[] objects = arr.toArray();
+
+// arguments length is two or four
+string [] args1 = new string[args.Length];
+//store contents of objects array to args1[0] array
+for (int i=0;i<=args.Length;i++)
+{
+args1[0]=objects[i].ToString();
+
+
+
+//passing the arguments to web-javac7 compiler and this method is kept confidential
+// from hackers , they may copy the programs and they can create their own programming Language.
+
+javac7.Javac7.Java7Main(args1);
+
+}
+
+}
+
+
+      }
+
+      <CATCH> (Exception e)
+
+      {
+
+        <PRINTLN>("DotWeb5.0  Error.... "+e);
+
+      }  
+
+    
+
+
+ 
+
+    }
+
+
+Output:
+======
+This will create a  DOTWEB5 compiler.
+
+
+ 
+
+        }
+
+    }
+
