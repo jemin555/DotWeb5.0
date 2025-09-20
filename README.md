@@ -51,6 +51,19 @@ shortened form for words like "baseball" or "born".
  J Stands for jemin
  7 Stands for more powerful.
 
+About the Author Wilmix jemin j
+===============================
+
+Author has 15 years Total IT exp.
+And he have used C/C++,Java,Dotnet Programming Languages
+in the projects.At year 2003 he invented 
+Webc mini compiler.Later gaining experience
+in Java , Dotnet ,and C/C++.By his experience he invent Oakjava7
+programming Language in year 2013.
+Dotweb5.0 follows the same code of OakJava7 P.L.
+And remaining 50% of DOTWEB5.0 take only 2 years time
+to finish it.So at year 2016 he invented 
+DOTWEB5.0. 
 
 
 ABOUT DOTWEB5.0
