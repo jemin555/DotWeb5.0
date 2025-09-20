@@ -541,7 +541,7 @@ act like a DOTWEB5 user friendly framework. It act like a XML syntax with data p
 This Machine Learning program (<OJ7ML) will automatically generate (.web). This (<OJ7ML>) 
 program has attractive syntax.So it is considered as a DOTWEB5 advanced framework or DOTWEB5.0 Machine learning framework.
  I reduces the pain of writing program for (.web).
-And It saves time and  cost.The Full form of <OJ7ML> program is "DOTWEB5.0 MACHINELEARNING". 
+And It saves time and  cost.The Full form of <OJ7ML> program is "DOTWEB5.0 with OakJava7 MACHINELEARNING". 
 It is used for Dynamic Webpages construction ie) DB with GUI + Business Logic and DOTWEB5 Servlet.
 We can also generate .dll  using this syntax by using .dll value as a Type.
 So when you include .exe value as a Type means when you compile the DOTWEB5.0
