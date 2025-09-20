@@ -342,7 +342,10 @@ This DOTWEB5.0 tutorial is MIT licensed and GNU
 About the DOTWEB5.0  Programming Language
 =========================================
 
-Note: I spent 5 years  to  Design and  create  the DOTWEB5.0 programming language.
+
+Note: I spent 2 years  to  Design and  create  this DOTWEB5.0 programming language.
+Because OJ7 only takes 5  years. Mostly OJ7 concepts are covered 
+in DOTWEB5.0.So 50% is over for Dotweb5.0, another 50 % for Dotweb5.0 is invented at year 2016.
 but unwanted hackers attack my website without any reason. That's why iam delayed.
 DOTWEB5.0 programming language is not easy to design and invent it. To invent 
 DOTWEB5.0 programming language  is very hard...
