@@ -84,7 +84,9 @@ DotWeb5 includes a set of reserved keywords that cannot be used as variable name
 
 ✅ Keyword Overview
 ===================
-
+<Pre>
+<code>
+  <table bgcolor=black>
 <JAVA7>       </JAVA7>       abstract       assert
 boolean       break          byte           case
 <CATCH>       char           <CLASS>        continue
@@ -98,8 +100,9 @@ short         <SHARED>       <SUPER>        switch
 synchronized  <IS>           throw          throws
 transient     <TRY>          void           volatile
 while
-
-
+</table>
+</code>
+</pre>
 
 🧪 Sample Program: testme.java7
 
@@ -162,13 +165,19 @@ public synchronized void <RUN> {
 🖥️ Output
 ==========
 
-Value is 15
+<Pre>
+<code>
+  <table bgcolor=black>
+    
+Value is 15 
 Under Weight is less than 15. Your health is worst = 5
 Under Weight is less than 15. Your health is worst = 5
 Note: Please enter accurately
 java.lang.Exception
 java.lang.Exception
 
-
+  </table>
+</code>
+</Pre>
 
 
