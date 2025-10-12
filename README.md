@@ -1,24 +1,23 @@
 DOTWEB5.0
 ===========
 
-DOTWEB5.0 Programming Language is  invented by  wilmix jemin  j  at  year 2016 in  Java ,C/C++, DOTWEB3.0. 
-and DOTWEB5.0 has more Advantages + remote-x apps which will be described later.
-and  it  is   focused  on   creating  DataStructures,Console Application with Wnosql DB, and
- used  in  web application and Used in Remote X application  and  it  has  Advanced Oops.But DOTWEB5.0 windows application is  present in JDollarShell
- not present in DOTWEB5.0. DOTWEB5.0 has Advanced concept like Bucket,Extend,etc. But in JdollarShell only J$Shell GUI,Graphics are
- found. Remote X application is Advanced than Python Webapplication,and all programming Languages.So Say Good bye to olden web application.
+DOTWEB5.0 Programming Language: An Overview
+============================================
 
- 
- It is used in Remote X application which is not opensource.Because Remote X application is
-different from webapplication and this concept is  invented by Wilmix Jemin j.This Remote X application and
-Remote web Application are not one. Remote web application is advanced than  remote X application.
-This  Remote X Application and  Remote Webapplication is  confidental from illegal hackers or another illegal persons who
-want to copy all my features in their research product and they will implement it.
+DOTWEB5.0 is a programming language developed by Wilmix Jemin J in 2016. It was built using Java, C/C++, and DOTWEB3.0 technologies. 
+This language introduces several advanced features and supports the development of Remote-X applications, which will be discussed in detail later.
+DOTWEB5.0 is primarily designed for creating data structures, console-based applications integrated with WNoSQL databases, and is also applicable in web
+and Remote-X application development. It incorporates advanced object-oriented programming (OOP) concepts. However, the Windows-based application interface 
+for DOTWEB5.0 is available only through JDollarShell, not as a native component of DOTWEB5.0 itself.
 
- It  also  supports obfuscation, Code Security, and it  is Learnable.It is  easy to learn.
-OJ7   means   Jemin  Advanced  Virtual  Application.
-OJ7   is  even   Advanced   than  Python Programming  language and  all programming Languages.
-DOTWEB5.0 Linux version  is  implemented  in  C/C++, Java,Dotweb3.0 at  year  2021.  
+The language introduces innovative concepts such as Bucket and Extend. In JDollarShell, only the J$Shell graphical user interface (GUI) and graphics components are available.
+Remote-X applications developed using DOTWEB5.0 are considered more advanced than those built with Python or other existing programming languages. As such, it represents a 
+shift away from traditional web application paradigms.Remote-X applications are proprietary and not open source. They differ fundamentally from standard web applications—a 
+distinction also introduced by Wilmix Jemin J. It is important to note that Remote-X applications and Remote Web Applications are not the same. In fact, Remote Web Applications
+are considered more advanced than Remote-X applications. Both are designed with confidentiality in mind, protecting against unauthorized access or replication by malicious actors or competitors.
+DOTWEB5.0 also supports code obfuscation and security features, making it both secure and easy to learn. 
+The platform introduces OJ7, which stands for Jemin Advanced Virtual Application. OJ7 is positioned as being more advanced than Python and other programming languages.
+The Linux version of DOTWEB5.0 was implemented in 2021 using C/C++, Java, and DOTWEB3.0.
 
 
 
