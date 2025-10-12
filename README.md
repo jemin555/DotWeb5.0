@@ -19,50 +19,35 @@ DOTWEB5.0 also supports code obfuscation and security features, making it both s
 The platform introduces OJ7, which stands for Jemin Advanced Virtual Application. OJ7 is positioned as being more advanced than Python and other programming languages.
 The Linux version of DOTWEB5.0 was implemented in 2021 using C/C++, Java, and DOTWEB3.0.
 
+Definition of DOTWEB5.0 Programming Language
+============================================
+DOTWEB5.0 is a programming language designed for obfuscation, code security, and ease of learning. It supports the development of advanced software,
+including JClass-type applications, and is widely used in software development, web applications integrated with machine learning, and single-page web applications.
+The language is symbolized by a STAR icon and is compatible with Java/J2EE frameworks such as MyBatis and Hibernate. Additionally, DOTWEB5.0 is used in console-based 
+applications and integrates with OJ7, a platform utilized in machine learning and data science.
 
+Expansion of DOTWEB5.0
+======================
+The name DOTWEB5.0 carries symbolic meaning:
+- Dot- stands for versalite and music.
+- W stands for Wilmix, the name of the inventor.
+- E stands for Electronic, representing technology, business, and internet-related domains such as e-commerce, e-mail, and e-learning.
+- B can represent various contextual meanings, including "brother," "babe," "bae," "boo," or serve as a shortened form of words like "baseball" or "born."
+- 5 is associated with completeness, perfection, spirituality, and the pursuit of truth and knowledge.
+- 0 represent element of addition,ie) Additonal Dotweb5.0 features are found.
+- J stands for Jemin.
+- The second 5 signifies adventure.
 
-Definition:
-==========
+About the Author: Wilmix Jemin J
+================================
+Wilmix Jemin J is the creator of DOTWEB5.0 and has over 15 years of experience in the IT industry. 
+His expertise spans multiple programming languages, including C/C++, Java, and .NET.
+In 2003, he developed the Webc Mini Compiler, marking the beginning of his contributions to programming language innovation.
+After gaining extensive experience in Java, .NET, and C/C++, he invented the OakJava7 programming language in 2013.
+DOTWEB5.0 builds upon the foundational code of OakJava7,
+with 50% of its development completed in just two years.
+The final version of DOTWEB5.0 was introduced in 2016.
 
-“DOTWEB5.0  is  meant  for  obfuscation, Code Security, Learnable,jclass type software, Advanced , used  in
-Software  development, web application with machine learning  , and  it  symbolizes  
-STAR  symbol,  used  in  applications  like   consolee and  used  with  java/j2ee  framework  like
-mybatics,and hibernate  and OJ7 is used  in Machine Learning and  Datascience ,It is  also
-used  to  create  single webapplication".
-          
-
-
-What is the Expansion of DOTWEB5.0 Programming Language ?
-=======================================================
-
-
-
-What is  the Expansion of DOTWEB5.0 is
-
-W stands for Wilmix 
-E stands for Electronic (related to technology, business, and the internet, such as e-commerce, e-mail, and e-learning).
-B stands for can stand for many things depending on the context, including "brother," "babe," "bae," "boo," or even as a
-shortened form for words like "baseball" or "born". 
-
-7 is often associated with completeness, perfection, spirituality, and a quest for truth and knowledge. 
-
- O stands for Olive
- J Stands for jemin
- 7 Stands for more powerful.
-
-About the Author Wilmix jemin j
-===============================
-
-Author has 15 years Total IT exp.
-And he have used C/C++,Java,Dotnet Programming Languages
-in the projects.At year 2003 he invented 
-Webc mini compiler.Later gaining experience
-in Java , Dotnet ,and C/C++.By his experience he invent Oakjava7
-programming Language in year 2013.
-Dotweb5.0 follows the same code of OakJava7 P.L.
-And remaining 50% of DOTWEB5.0 take only 2 years time
-to finish it.So at year 2016 he invented 
-DOTWEB5.0. 
 
 
 ABOUT DOTWEB5.0
