@@ -253,13 +253,14 @@ Sample Program Structure
     '
   >
   </DESIGN>
+  
+  -- Define the package name and database 
+  -- Always use "wnosql" as the default database value 
+  -- Specify OakJava7 library files for machine learning in J7Lib (e.g., Java7ML) 
+  -- Use "ML" as the package name, "sampleml1" as the namespace, and "misctype1" as the class name
+  -- Set the output type as either .exe or .dll 
 
-  <!-- Define the package name and database -->
-  <!-- Always use "wnosql" as the default database value -->
-  <!-- Specify OakJava7 library files for machine learning in J7Lib (e.g., Java7ML) -->
-  <!-- Use "ML" as the package name, "sampleml1" as the namespace, and "misctype1" as the class name -->
-  <!-- Set the output type as either .exe or .dll -->
-
+  
   <OakJava7 
     Package="ML" 
     Database="wnosql" 
