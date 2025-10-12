@@ -161,134 +161,79 @@ DOTWEB5.0 and Java/J2EE follow camelCase conventions and offer flexible styling 
 - Syntax and Readability
 DOTWEB5.0 features attractive syntax and enables developers to write fewer lines of code compared to Python, making it a more elegant and efficient language. 
 
+Frequently Asked Questions (FAQs)
+=================================
 
-Doubtful FAQS?
-==============
-
-
-1) Can DOTWEB5.0 compiler work  with  Jdk1.8 and java/j2ee frameworks ?
-
+Can the DOTWEB5.0 compiler work with JDK 1.8 and Java/J2EE frameworks?
 No.
-
-2) Can DOTWEB5.0 compiler compile Jdk1.8 programs ?
-
-No, It will not accept jdk1.8 and other jdk1.8 versions.
-
-3) Is DOTWEB5.0 is the competitor of Java/J2ee?
-
-No , DOTWEB5.0 business is very different when compared
-
-to Oracle business.
-
-4) Is DOTWEB5.0 work as a Standalone application?
-
-Yes, it will work without the help of Java/J2ee applications.
-
-
-5) Is DOTWEB5.0 a high security Programming Language?
-
+Can the DOTWEB5.0 compiler compile JDK 1.8 programs?
+No. It does not support JDK 1.8 or its subsequent versions.
+Is DOTWEB5.0 a competitor to Java/J2EE?
+No. DOTWEB5.0 operates in a completely different domain compared to Oracle’s business model.
+Can DOTWEB5.0 function as a standalone application?
+Yes. It works independently without relying on Java/J2EE applications.
+Is DOTWEB5.0 a high-security programming language?
 Yes.
 
+Why DOTWEB5.0 Is Superior to Python ?
+======================================
 
-===================================================================
-
-
-Why DOTWEB5.0 is the best and top programming language than python p.l?
-======================================================================
-
-i) Both DOTWEB5.0 and java/j2ee  is like  english fluent language.
-
-but python is not a english fluent language.
-
-ii) Using DOTWEB5.0  we can reduce the  lines of code.
-
-python is not  easy for the  developers to focus  when it reduce the lines of  code...
-
-iii) DOTWEB5.0 and Java/j2ee follow camel case and can be adjusted  at any style with beautiful arrangement 
-
-using Intellij.But Python is failed in indentation.
-
-iv) DOTWEB5.0 is an beautiful programming language with attractive syntax and with few lines of code than python programming Language.
-
-v) DOTWEB5.0 module Oakjava8 is  best  in Mobile computing.
+- Language Fluency
+Both DOTWEB5.0 and Java/J2EE resemble fluent English in syntax and readability. Python, however, lacks this fluency.
+- Code Efficiency
+DOTWEB5.0 enables developers to write concise code. Python, while capable of reducing lines of code, can be difficult to manage effectively.
+- Styling and Formatting
+DOTWEB5.0 and Java/J2EE follow camelCase conventions and offer flexible styling options, especially when using IDEs like IntelliJ. Python struggles with indentation consistency.
+- Syntax and Readability
+DOTWEB5.0 features attractive syntax and allows developers to write fewer lines of code compared to Python.
+- Mobile Computing
+The OakJava8 module within DOTWEB5.0 is highly optimized for mobile computing.
+Note: Only 25% of DOTWEB5.0’s features have been publicly released for professionals. Many advanced features remain undisclosed to prevent unauthorized replication.
 
 
-Note:  
-=====
+Release Status and Licensing
+=============================
 
-As  only  25%  of   DOTWEB5.0   features  is  published  for
-professionals  but  many  features  of  DOTWEB5.0   is  hidden  from   users..
-Since   they  may    copy    the  features   and  try  to  implement  it...
+DOTWEB5.0 is not yet officially released but is confirmed to be bug-free. The first version will cover approximately 70% of machine learning and data science concepts, 
+with the remaining 30% planned for the second version.
 
-DOTWEB5.0  is not  released  now. It has no  bugs.
+This tutorial is licensed under both the MIT License and the GNU General Public License (GPL).
 
-In DOTWEB5.0  first version itself  we will cover 
-70%  the  concepts of  Machine learning and DataScience.
-and  remaining concepts will be covered in DOTWEB5.0 second version.
+Development Background
+=======================
 
+The development of DOTWEB5.0 took two years. Its foundation is based on OJ7, which itself required five years to complete.
+Approximately 50% of DOTWEB5.0 was derived from OJ7, and the remaining 50% was completed in 2016.
+However, progress was delayed due to unauthorized cyberattacks on the author's website. 
+Designing and inventing DOTWEB5.0 was a complex and challenging process.
 
-Note
-====
+Comparison: Java (JDK 1.8) vs. DOTWEB5.0
+========================================
 
-This DOTWEB5.0 tutorial is MIT licensed and GNU 
+- Both Java and DOTWEB5.0 are used for web and console applications.
+- Java is aligned with cloud computing, while DOTWEB5.0 focuses on Remote-X applications.
+- DOTWEB5.0 is not intended for building software like VB.NET or Java Swing.
+- It is compatible with Java frameworks such as Hibernate and MyBatis, but not with Java Spring due to its bulky codebase.
+- Java Spring applications are slower compared to those built with Node.js or DOTWEB5.0.
+- DOTWEB5.0 was developed using DOTWEB3.0, C/C++, and Java.
+- DOTWEB5.0 offers advanced data structures (e.g., Pipe, Bag) that surpass those in Java (JDK 1.8).
+- DOTWEB5.0 is not a competitor to Java, C#, or Python.
+- It is an interactive programming language, unlike Java.
+- It supports machine learning, data science, mobile applications, and single-page applications.
+- DOTWEB5.0 includes features like obfuscation, code security, and ease of learning.
+- It uses a user-friendly framework (.oj7ua) and supports concise function statements.
+- It integrates with WNoSQL databases for enhanced security.
+- DOTWEB5.0 is a pure object-oriented programming language, whereas Java/J2EE is not.
+- It saves both time and cost and is considered one of the most secure programming languages.
+- DOTWEB5.0 can compile and run programs simultaneously, a feature not available in Java (JDK 1.8).
 
-
-
-About the DOTWEB5.0  Programming Language
-=========================================
-
-
-Note: I spent 2 years  to  Design and  create  this DOTWEB5.0 programming language.
-Because OJ7 only takes 5  years. Mostly OJ7 concepts are covered 
-in DOTWEB5.0.So 50% is over for Dotweb5.0, another 50 % for Dotweb5.0 is invented at year 2016.
-but unwanted hackers attack my website without any reason. That's why iam delayed.
-DOTWEB5.0 programming language is not easy to design and invent it. To invent 
-DOTWEB5.0 programming language  is very hard...
-
-
-Difference between Java(Jdk1.8) and DOTWEB5.0 ?
-===============================================
-
-Both Java and DOTWEB5.0 is used in webapplication and
-console application.But Java follows cloudcomputing
-DOTWEB5.0 follows Remote-X Application.DOTWEB5.0 is
-not used to create a software like VB.net and
-Java Swing. DOTWEB5.0 is used only with java frameworks like hibernate
-and Mybatics, it is not used with Java Spring ,the reason is Java Spring code is
-very bulk. This Java Spring webapplication standalone application
-is very slow when compare to Node.js,DOTWEB5.0.
-DOTWEB5.0 is invented in Dotweb3.0,C/C++, and java.Java Spring
-takes more time to develop a webapplication when compared to DOTWEB5.0,Node.js.
-And DOTWEB5.0 has Advanced datastructures when compare to Java(Jdk1.8).
-eg) Pipe,Bag,etc.Remember DOTWEB5.0 is not the competitor for Java,C#,
-python,etc. DOTWEB5.0 is an interactive programming language. Java is
-not a interactive programming Language.DOTWEB5.0 is used in MachineLearning,
-Datascience,mobile application,and single page application.
-It supports obfuscation, Code Security, and it is Learnable.
-DOTWEB5.0 follows attractive and beautiful Userfriendly framework
-(.oj7ua).DOTWEB5.0 follows Shortest  function Statements.Dotweb5.0 is
-focus on Code Security.DOTWEB5.0 is used with WNOSQL Database which  
-provides high security...DOTWEB5.0 is a standalone programming
-language.That is without help of any available java frameworks 
-DOTWEB5.0 will able to create  webapplication,etc.DOTWEB5.0 is
-a Pure OOPS Programming Language. And Java/j2ee is not a
-Pure OOPS Programming Language.DOTWEB5.0 saves  time and  cost
-and DOTWEB5.0 is a highest securable programming language.
-DOTWEB5.0 will compile and run the DOTWEB5.0 program
-at the same time. but Java(Jdk1.8) can't do it.
-
-
-
-
-
-
-Who may  focus DOTWEB5.0 ?
-==================================
- For DOTWEB5.0 ,DOTWEB5.0 machinelearning,DOTWEB5.0 datascience only C or  C++ or C# & Dotnet or Java/j2ee
-
-Professionals  can focus and  read the samples. Because it is designed like this.
-
-Note: All DOTWEB5.0  documents  are  under  construction.So don't read it now ,because it will confuse you.
+Who Should Use DOTWEB5.0?
+========================
+DOTWEB5.0, along with its machine learning and data science modules, is best suited for professionals with experience in:
+- C or C++
+- C# and .NET
+- Java/J2EE
+These professionals can easily understand and work with DOTWEB5.0 by reviewing the available samples and documentation.
 
 
 Important Note:
