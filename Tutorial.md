@@ -190,3 +190,139 @@ java.lang.Exception
 </Pre>
 
 
+📘 DotWeb5 Reserved Keywords – Module 2
+========================================
+
+DotWeb5 includes a set of reserved keywords that cannot be used as variable names, method names, class names, or other identifiers. In Module 2, developers can build prototype software such as .exe files for console-based DotWeb5 programs. This module is designed to be familiar to DotWeb5 and Java/J2EE professionals.
+
+🔐 Keyword Reference (Total: 50 Keywords)
+=========================================
+
+<Pre>
+<code>
+  <table bgcolor=black>
+    
+<ABSTRACT>       - Declares an abstract class  
+<BREAK>          - Exits a loop  
+<CASE>           - Used as an option in switch statements  
+<CATCH>          - Handles exceptions  
+<CLASS>          - Declares a class (collection of objects)  
+<CONTINUE>       - Skips to the next loop iteration  
+<DO> <WHILE>     - Creates a do-while loop  
+<ELSE>           - Follows an <IF> condition  
+<ENUM>           - Declares a group of constants  
+<FINALLY>        - Executes regardless of exceptions  
+<FOR>            - Creates a for loop  
+<FOREACH>        - Iterates over collections (arrays, lists, sets)  
+<GOTO>           - Jumps to labeled code  
+<IF>             - Conditional logic  
+is               - Checks object type compatibility  
+<IN>             - Checks if an element exists  
+<OBJECT>         - Represents an instance of a class  
+<INTERFACE>      - Enables multiple inheritance  
+<DEFAULT>        - Default case in switch statements  
+<BASE>           - Calls base class methods  
+<LOCK>           - Ensures thread-safe execution  
+<PACK>           - Declares a package (namespace)  
+<NEW>            - Instantiates a class  
+<OPERATOR>       - Used for operator overloading  
+<READONLY>       - Declares read-only variables  
+<RET>            - Returns a value  
+<SIZEOF>         - Returns memory size of a variable  
+<TYPEOF>         - Gets the type of an object  
+void             - Declares a method with no return value  
+Shared           - Calls static methods without creating objects  
+<STR>            - Represents a string  
+<STRUCT>         - Declares a structured record  
+<SWITCH>         - Selects among multiple code blocks  
+<IS>             - Refers to the current object  
+<TRY>            - Begins a try block  
+<THROW>          - Throws an exception  
+<USE>            - Imports DotWeb5 libraries or packages  
+<VIRTUAL>        - Declares methods that can be overridden  
+<VOLATILE>       - Enables synchronized variable access across threads  
+<WHILE>          - Creates a while loop  
+<JAVA7>          - Loads I/O packages for Java/J2EE compatibility  
+<JAVA>           - Loads I/O packages for console/web apps  
+<HEAPJ7>         - Stores large data objects to prevent memory overflow  
+<CONVERTARRAYLIST> - Converts strings to ArrayList  
+<OVERRIDE>       - Overrides parent class methods  
+bool             - Boolean type (true/false)  
+get / set        - Accessors for retrieving and assigning values  
+<OAKJAVA7SECURITY> - Secures DotWeb5 executable files  
+
+ </table>
+</code>
+</Pre>
+
+
+💎 Diamond Modules
+===================
+
+DotWeb5 Module 1 and Module 2 together form the Diamond Module, which supports .java7 programs. When compiled using the WEBC7 compiler, a .java7 file will generate:
+- .jclass file
+- .exe file
+WEBC7 is an open-source compiler available for DotWeb5 professionals to practice and build secure applications.
+
+🔐 Security Module
+===================
+A third module focused on security is available in the DotWeb5 Enterprise Edition. It includes advanced features for protecting executable files and managing secure environments.
+
+🧪 Example: Operator Overloading and Structure in DotWeb5
+==========================================================
+  
+<Pre>
+<code>
+  <table bgcolor=black>
+    
+<CLASS> Calculator
+{
+  int a = 5;
+  int b = 10;
+
+  <OPERATOR> + (Calculator c1, Calculator c2)
+  {
+    Calculator result = <NEW> Calculator();
+    result.a = c1.a + c2.a;
+    result.b = c1.b + c2.b;
+    <RET> result;
+  }
+
+  <STRUCT> display()
+  {
+    <PRINTLINE>("Sum A: " + a);
+    <PRINTLINE>("Sum B: " + b);
+  }
+}
+
+<MAIN>
+{
+  Calculator obj1 = <NEW> Calculator();
+  Calculator obj2 = <NEW> Calculator();
+  Calculator obj3 = obj1 + obj2;
+  obj3.display();
+}
+
+ </table>
+</code>
+</Pre>
+
+
+🖥️ Output
+==========
+
+<Pre>
+<code>
+  <table bgcolor=black>
+    
+Sum A: 10
+Sum B: 20
+
+
+     </table>
+</code>
+</Pre>
+
+
+
+
