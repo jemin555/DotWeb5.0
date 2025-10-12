@@ -10,7 +10,7 @@ DotWeb5 is a programming language designed for:
 - Remote X applications
 - Web applications
 - Machine learning
-It is symbolized by a star icon and is used with frameworks like Scroll Framework within the DotWeb5 ecosystem.
+It is symbolized by a ⭐ star icon and is used with frameworks like Scroll Framework within the DotWeb5 ecosystem.
 
 🧠 About DotWeb5
 DotWeb5 was invented by Wilmix Jemin J in 2013, evolving from Java and DOTWEB3.0. Earlier versions of Java (JDK 1.7 and JDK 1.8) were vulnerable to source code extraction using tools like JAD decompiler.
@@ -41,9 +41,6 @@ However, I personally avoid GUI frameworks like Java Swing or J2EE due to misinf
 - The creator of DotWeb5 is not interested in robotics, as it may replace human roles.
 - We support AI, but not robots.
 
-
-
-
 📘 DotWeb5 Programming Modules
 DotWeb5 is divided into two modules:
 - DotWeb5 – Module 1
@@ -57,61 +54,24 @@ DotWeb5 is used in:
 - Machine learning
 - Data science
 - Remote X applications
-Module 1 is primarily used by Java and DotWeb5 professionals. The Remote X Application module will be released after the machine learning and data science modules are finalized.
+Module 1 is primarily used by Java and DotWeb5 professionals. The Remote X Application module will be released after the Machine Learning and Data Science modules are finalized.
 
 🔐 DotWeb5 Reserved Keywords – Module 1
 DotWeb5 includes a set of reserved keywords that cannot be used as variable names, method names, class names, or other identifiers.
 ✅ Keyword Overview
-|  |  | 
-| <JAVA7> |  | 
-| </JAVA7> |  | 
-| abstract |  | 
-| assert |  | 
-| boolean | truefalse | 
-| break |  | 
-| byte |  | 
-| case |  | 
-| <CATCH> | <TRY> | 
-| char |  | 
-| <CLASS> |  | 
-| continue |  | 
-| default |  | 
-| do | while | 
-| double |  | 
-| else |  | 
-| enum |  | 
-| <--- |  | 
-| final |  | 
-| <FINALLY> |  | 
-| float |  | 
-| for |  | 
-| if |  | 
-| --> |  | 
-| <IMPORT> |  | 
-| instanceof |  | 
-| int |  | 
-| interface |  | 
-| long |  | 
-| native |  | 
-| new |  | 
-| <PACKAGE> |  | 
-| private |  | 
-| protected |  | 
-| public |  | 
-| return |  | 
-| short |  | 
-| <SHARED> |  | 
-| <SUPER> |  | 
-| switch |  | 
-| synchronized |  | 
-| <IS> |  | 
-| throw |  | 
-| throws |  | 
-| transient |  | 
-| <TRY> |  | 
-| void |  | 
-| volatile |  | 
-| while |  | 
+<JAVA7>       </JAVA7>       abstract       assert
+boolean       break          byte           case
+<CATCH>       char           <CLASS>        continue
+default       do             double         else
+enum          <---           final          <FINALLY>
+float         for            if             -->
+<IMPORT>      instanceof     int            interface
+long          native         new            <PACKAGE>
+private       protected      public         return
+short         <SHARED>       <SUPER>        switch
+synchronized  <IS>           throw          throws
+transient     <TRY>          void           volatile
+while
 
 
 
