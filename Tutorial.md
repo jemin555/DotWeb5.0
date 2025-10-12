@@ -106,6 +106,11 @@ while
 
 🧪 Sample Program: testme.java7
 
+
+<Pre>
+<code>
+  <table bgcolor=black>
+    
 <JAVA7>
 
 public <CLASS> testme 
@@ -159,6 +164,10 @@ public synchronized void <RUN> {
 %>
 
 </JAVA7>
+    
+ </table>
+</code>
+</Pre>
 
 
 
