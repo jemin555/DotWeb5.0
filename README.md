@@ -239,40 +239,26 @@ DOTWEB5.0 Syntax with OakJava7 Machine Learning Integration
 ===========================================================
 Sample Program Structure
 ========================
-
 <!-- Beginning of OakJava7 ML Program -->
 <OJ7ML>
-
-  <!-- DESIGN section: GUI, variable declarations, method declarations -->
-  <DESIGN
-    SRC='
-      // Method declarations
+ <DESIGN  SRC='
       public static void Methods1() {
         <PRINTLN>("");
       }
-    '
-  >
+    '>
   </DESIGN>
 
-  
-  <OakJava7 
-    Package="ML" 
-    Database="wnosql" 
-    J7Lib="{Java7ML}" 
-    Names="sampleml1,misctype1" 
-    Type="exe"
-
+  <OakJava7  Package="ML" Database="wnosql" J7Lib="{Java7ML}" Names="sampleml1,misctype1"  Type="exe"
+    
     MAIN='
-      // Main method calls
       Methods1();
       Methods2();
       ?>
     '
 
     LOGIC='
-      // Business logic methods
       public static void Method2() {
-        //Write business logic and use DOTWEB5.0 Servlet 
+        // Write business logic here
       }
     '
   >
