@@ -235,190 +235,77 @@ DOTWEB5.0, along with its machine learning and data science modules, is best sui
 - Java/J2EE
 These professionals can easily understand and work with DOTWEB5.0 by reviewing the available samples and documentation.
 
+DOTWEB5.0 Syntax with OakJava7 Machine Learning Integration
+===========================================================
+Sample Program Structure
+========================
+
+// Beginning of OakJava7 Machine Learning Program
+
+<OJ7ML>
+
+  <DESIGN
+    SRC='
+      // Method declarations
+      public static void Methods1() {
+        <PRINTLN>("");
+      }
+    '
+  >
+  </DESIGN>
+
+  // Define the package name and database
+  // Always use "wnosql" as the default database value
+  // Specify OakJava7 library files for machine learning in J7Lib (e.g., Java7ML)
+  // Use "ML" as the package name, "sampleml1" as the namespace, and "misctype1" as the class name
+  // Set the output type as either .exe or .dll
+
+<OakJava7 Package='ML' Database='wnosql' J7Lib='{Java7ML}' Names='sampleml1,misctype1' Type='exe'
+
+  MAIN='
+    // Main method logic
+    Methods1();
+    Methods2();
+    ?>
+  '
+
+  LOGIC='
+    // Business logic methods
+    public static void Method2() {
+      <!----- Write business logic and use DOTWEB5.0 Servlet ----!>
+    }
+  '>
 
-Important Note:
-================
-This  GNUGPL3  license  is  for  only  Professional  Edition with  DOTWEB5.0 Tutorial. But  enterprise  edition 
- is  not  free that  is  MIT licensed. since DOTWEB5.0 Programming Language  is a  Powerful Programming Language
-  and  it  is  dual Licensed invented  by  wilmix jemin j (Jemin Information Technology).
-
-
-
-
-
-Syntax for DOTWEB5.0 with Oakjava7 Machine Learning
-==================================================
-
-
-// Beginning of OakJava7 ML Program
-
- <OJ7ML> 
-
-  
-<DESIGN  
-
-
-
-// Design is the HTML GUI or variable declarations or method declarations
-
-
-SRC='
-
-// Method declarations
-
-public static void Methods1()
-{
-
-
-
-
-j7out.println("");
-
-
-
-
-
-
-}
-
-
-
-'> 
-
-
-//Close Design for GUI
-
-</DESIGN>	
-
-//Mention name of Package value in Package always mention wnosql as a default value for the Database. 
-
-// Mention OakJava7 library files for machine Learning  in J7Lib eg) Java7ML 
-
-// Mention Package as ML , Names as sampleml1 for namespace name and class name as misctype1
-
-// Mention Type as .exe or .dll 
-
-<OakJava7 Package='ML' Database='wnosql' J7Lib='{Java7ML}' Names='sampleml1,misctype1' Type='exe'  
-
-
-
-
-//Mention MAIN section for Dotweb5.0 main program ie) public void main() can be  written as MAIN
-
-// Mention what are the Business logic methods inside the main program eg) Methods1(),Methods2() in the MAIN section
-
- MAIN=' 
-
-
-// Methods call
-
-Methods1();
-Methods2();
-
-
-
-
-
-
-
-
-
-// This ( ?> ) is  equivalent to }}.Close the Main Section
-?>
-'
-//LOGIC sections represent Business Logic for Dotweb5.0
-LOGIC=' 
-
-  
-//Business logic methods
-public static void Method2()
-
-{
-
-<!----- write Business Logic and  use Dotweb5.0 Servlet ----!>
-
-}
-
-
-
-
-
-// Close the Logic section
-'>
-
-
-// Close  the OakJava7 program 
 </OakJava7>
-
-
-// End of Oakjava7 program
 </OJ7ML>
 
+Explanation
+===========
 
+This syntax demonstrates how to build a machine learning program using the OakJava7 framework within DOTWEB5.0. 
+When compiled, it automatically converts into an optimized DOTWEB5.0 .web file, along with .exe and .ojava7 outputs.
+You can test the machine learning program using the generated .web code.
+The <OJ7ML> tag serves as a user-friendly framework, resembling XML structure with embedded logic and design.
+It simplifies the development of dynamic web pages by combining database integration, GUI design, business logic,
+and DOTWEB5.0 servlets. You can also generate .dll files by setting the Type attribute to "dll".
+Using "exe" as the Type will produce both .exe and .ojava7 files upon compilation.
 
+Why Is DOTWEB5.0 Syntax Similar to <JAVA> or <JAVA7>?
+=====================================================
+The syntax design of DOTWEB5.0 intentionally mirrors Java-style tags like <JAVA> and <JAVA7> to maintain familiarity for developers.
+However, unlike Java, DOTWEB5.0 offers robust code security. Java source code can be easily extracted by hackers using decompilers,
+whereas DOTWEB5.0 prevents such vulnerabilities.
+DOTWEB5.0 is often used alongside Java/J2EE frameworks, enhancing their security and performance. While Java and DOTWEB5.0 coexist 
+in the software development ecosystem, DOTWEB5.0 belongs to the "Java-type" family but provides significantly stronger protection for web applications.
 
+Important Note
+==============
 
-Explanation 
-============
+The GNU GPL v3 license applies exclusively to the Professional Edition of the DOTWEB5.0 tutorial.
+The Enterprise Edition is not free and is licensed under the MIT License.
+DOTWEB5.0 is a powerful programming language developed by Wilmix Jemin J of Jemin Information Technology.
+It is distributed under a dual licensing model, combining both GNU GPL v3 and MIT licenses depending on the edition.
 
-Here when you code the Machine Learning program  using this syntax, it will automatically convert to
-DOTWEB5.0 program ie(.web) . And you will get a optimized DOTWEB5.0 (.web) code and .exe and .ojava7 files.
-You can also test the  DOTWEB5 Machine Learning program using (.web) code...So when we notice that here <OJ7ML> 
-act like a DOTWEB5 user friendly framework. It act like a XML syntax with data present inside it.
-This Machine Learning program (<OJ7ML) will automatically generate (.web). This (<OJ7ML>) 
-program has attractive syntax.So it is considered as a DOTWEB5 advanced framework or DOTWEB5.0 Machine learning framework.
- I reduces the pain of writing program for (.web).
-And It saves time and  cost.The Full form of <OJ7ML> program is "DOTWEB5.0 with OakJava7 MACHINELEARNING". 
-It is used for Dynamic Webpages construction ie) DB with GUI + Business Logic and DOTWEB5 Servlet.
-We can also generate .dll  using this syntax by using .dll value as a Type.
-So when you include .exe value as a Type means when you compile the DOTWEB5.0
-it will generate the  .exe files and  .ojava7 files.
-
-
-
-
-===========================================
-
-
-
-<BR><BR>
-
-
-
-Why DOTWEB5.0 syntax is created like <JAVA> or  <JAVA7> ?
-<BR>
-
-Because Java fails in code security,Security.If a 
-person write java program , Java Source code
-will be taken by  hackers ,etc.
-So DOTWEB5.0 is  used  with Java/j2ee.
-Java is used with DOTWEB5.0
-so the <JAVA> or  <JAVA7> syntax is  focused 
-for DOTWEB5.0 Programming Language.
-So we can say two (Java and  DOTWEB5.0 )
-is  in our computer field market.
-So we can say DOTWEB5.0 is the 
-Java type  group.DOTWEB5.0 provides
-high security where java becomes like 
-a Securable software for webapplication.When we use
-Java with DOTWEB5.0.
-
-<BR><BR><BR>
-
-
-Note: 
-
-<BR>
-
-
-This document is under  construction. DOTWEB5.0 Website is  changed  as  a  beautiful webpage.
-Samples ,Advanced samples, Machine learning, Datascience etc  is under construction.
-Even gooogle site is mostly affected by Hackers,who can steel the code and attack it.
- So Google site is not focused.We will provide securable url it can determine 
-the persons ,etc visiting the website.Due to this all tutorial documents will be
-available at Github.Later we will  change in PDF format for
-the Professional and  Enterprise Edition. 
- 
 
 
 
