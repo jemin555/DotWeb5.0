@@ -198,63 +198,109 @@ DotWeb5 includes a set of reserved keywords that cannot be used as variable name
 🔐 Keyword Reference (Total: 50 Keywords)
 =========================================
 
-<Pre>
-<code>
-  <table bgcolor=black>
-    
-<ABSTRACT>       - Declares an abstract class  
-<BREAK>          - Exits a loop  
-<CASE>           - Used as an option in switch statements  
-<CATCH>          - Handles exceptions  
-<CLASS>          - Declares a class (collection of objects)  
-<CONTINUE>       - Skips to the next loop iteration  
-<DO> <WHILE>     - Creates a do-while loop  
-<ELSE>           - Follows an <IF> condition  
-<ENUM>           - Declares a group of constants  
-<FINALLY>        - Executes regardless of exceptions  
-<FOR>            - Creates a for loop  
-<FOREACH>        - Iterates over collections (arrays, lists, sets)  
-<GOTO>           - Jumps to labeled code  
-<IF>             - Conditional logic  
-is               - Checks object type compatibility  
-<IN>             - Checks if an element exists  
-<OBJECT>         - Represents an instance of a class  
-<INTERFACE>      - Enables multiple inheritance  
-<DEFAULT>        - Default case in switch statements  
-<BASE>           - Calls base class methods  
-<LOCK>           - Ensures thread-safe execution  
-<PACK>           - Declares a package (namespace)  
-<NEW>            - Instantiates a class  
-<OPERATOR>       - Used for operator overloading  
-<READONLY>       - Declares read-only variables  
-<RET>            - Returns a value  
-<SIZEOF>         - Returns memory size of a variable  
-<TYPEOF>         - Gets the type of an object  
-void             - Declares a method with no return value  
-Shared           - Calls static methods without creating objects  
-<STR>            - Represents a string  
-<STRUCT>         - Declares a structured record  
-<SWITCH>         - Selects among multiple code blocks  
-<IS>             - Refers to the current object  
-<TRY>            - Begins a try block  
-<THROW>          - Throws an exception  
-<USE>            - Imports DotWeb5 libraries or packages  
-<VIRTUAL>        - Declares methods that can be overridden  
-<VOLATILE>       - Enables synchronized variable access across threads  
-<WHILE>          - Creates a while loop  
-<JAVA7>          - Loads I/O packages for Java/J2EE compatibility  
-<JAVA>           - Loads I/O packages for console/web apps  
-<HEAPJ7>         - Stores large data objects to prevent memory overflow  
-<CONVERTARRAYLIST> - Converts strings to ArrayList  
-<OVERRIDE>       - Overrides parent class methods  
-bool             - Boolean type (true/false)  
-get / set        - Accessors for retrieving and assigning values  
-<OAKJAVA7SECURITY> - Secures DotWeb5 executable files  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DotWeb5 Reserved Keywords – Module 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
 
- </table>
-</code>
-</Pre>
+  <h1>DotWeb5 Reserved Keywords – Module 2</h1>
 
+  <table>
+    <caption>Keyword Reference Table</caption>
+    <tr>
+      <th>Keyword</th>
+      <th>Description</th>
+    </tr>
+    <tr><td>&lt;ABSTRACT&gt;</td><td>Declares an abstract class</td></tr>
+    <tr><td>&lt;BREAK&gt;</td><td>Exits a loop</td></tr>
+    <tr><td>&lt;CASE&gt;</td><td>Used as an option in switch statements</td></tr>
+    <tr><td>&lt;CATCH&gt;</td><td>Handles exceptions</td></tr>
+    <tr><td>&lt;CLASS&gt;</td><td>Declares a class (collection of objects)</td></tr>
+    <tr><td>&lt;CONTINUE&gt;</td><td>Skips to the next loop iteration</td></tr>
+    <tr><td>&lt;DO&gt; &lt;WHILE&gt;</td><td>Creates a do-while loop</td></tr>
+    <tr><td>&lt;ELSE&gt;</td><td>Follows an &lt;IF&gt; condition</td></tr>
+    <tr><td>&lt;ENUM&gt;</td><td>Declares a group of constants</td></tr>
+    <tr><td>&lt;FINALLY&gt;</td><td>Executes regardless of exceptions</td></tr>
+    <tr><td>&lt;FOR&gt;</td><td>Creates a for loop</td></tr>
+    <tr><td>&lt;FOREACH&gt;</td><td>Iterates over collections (arrays, lists, sets)</td></tr>
+    <tr><td>&lt;GOTO&gt;</td><td>Jumps to labeled code</td></tr>
+    <tr><td>&lt;IF&gt;</td><td>Conditional logic</td></tr>
+    <tr><td>is</td><td>Checks object type compatibility</td></tr>
+    <tr><td>&lt;IN&gt;</td><td>Checks if an element exists</td></tr>
+    <tr><td>&lt;OBJECT&gt;</td><td>Represents an instance of a class</td></tr>
+    <tr><td>&lt;INTERFACE&gt;</td><td>Enables multiple inheritance</td></tr>
+    <tr><td>&lt;DEFAULT&gt;</td><td>Default case in switch statements</td></tr>
+    <tr><td>&lt;BASE&gt;</td><td>Calls base class methods</td></tr>
+    <tr><td>&lt;LOCK&gt;</td><td>Ensures thread-safe execution</td></tr>
+    <tr><td>&lt;PACK&gt;</td><td>Declares a package (namespace)</td></tr>
+    <tr><td>&lt;NEW&gt;</td><td>Instantiates a class</td></tr>
+    <tr><td>&lt;OPERATOR&gt;</td><td>Used for operator overloading</td></tr>
+    <tr><td>&lt;READONLY&gt;</td><td>Declares read-only variables</td></tr>
+    <tr><td>&lt;RET&gt;</td><td>Returns a value</td></tr>
+    <tr><td>&lt;SIZEOF&gt;</td><td>Returns memory size of a variable</td></tr>
+    <tr><td>&lt;TYPEOF&gt;</td><td>Gets the type of an object</td></tr>
+    <tr><td>void</td><td>Declares a method with no return value</td></tr>
+    <tr><td>Shared</td><td>Calls static methods without creating objects</td></tr>
+    <tr><td>&lt;STR&gt;</td><td>Represents a string</td></tr>
+    <tr><td>&lt;STRUCT&gt;</td><td>Declares a structured record</td></tr>
+    <tr><td>&lt;SWITCH&gt;</td><td>Selects among multiple code blocks</td></tr>
+    <tr><td>&lt;IS&gt;</td><td>Refers to the current object</td></tr>
+    <tr><td>&lt;TRY&gt;</td><td>Begins a try block</td></tr>
+    <tr><td>&lt;THROW&gt;</td><td>Throws an exception</td></tr>
+    <tr><td>&lt;USE&gt;</td><td>Imports DotWeb5 libraries or packages</td></tr>
+    <tr><td>&lt;VIRTUAL&gt;</td><td>Declares methods that can be overridden</td></tr>
+    <tr><td>&lt;VOLATILE&gt;</td><td>Enables synchronized variable access across threads</td></tr>
+    <tr><td>&lt;WHILE&gt;</td><td>Creates a while loop</td></tr>
+    <tr><td>&lt;JAVA7&gt;</td><td>Loads I/O packages for Java/J2EE compatibility</td></tr>
+    <tr><td>&lt;JAVA&gt;</td><td>Loads I/O packages for console/web apps</td></tr>
+    <tr><td>&lt;HEAPJ7&gt;</td><td>Stores large data objects to prevent memory overflow</td></tr>
+    <tr><td>&lt;CONVERTARRAYLIST&gt;</td><td>Converts strings to ArrayList</td></tr>
+    <tr><td>&lt;OVERRIDE&gt;</td><td>Overrides parent class methods</td></tr>
+    <tr><td>bool</td><td>Boolean type (true/false)</td></tr>
+    <tr><td>get / set</td><td>Accessors for retrieving and assigning values</td></tr>
+    <tr><td>&lt;OAKJAVA7SECURITY&gt;</td><td>Secures DotWeb5 executable files</td></tr>
+  </table>
+
+</body>
+</html>
 
 💎 Diamond Modules
 ===================
