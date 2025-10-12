@@ -254,11 +254,7 @@ Sample Program Structure
   >
   </DESIGN>
 
-  <!-- OakJava7 Configuration -->
-  <!-- Use "wnosql" as the default database -->
-  <!-- J7Lib includes OakJava7 ML libraries (e.g., Java7ML) -->
-  <!-- Package: ML | Namespace: sampleml1 | Class: misctype1 -->
-  <!-- Type can be "exe" or "dll" -->
+  
   <OakJava7 
     Package="ML" 
     Database="wnosql" 
@@ -276,7 +272,7 @@ Sample Program Structure
     LOGIC='
       // Business logic methods
       public static void Method2() {
-        <!----- Write business logic and use DOTWEB5.0 Servlet ----!>
+        //Write business logic and use DOTWEB5.0 Servlet 
       }
     '
   >
