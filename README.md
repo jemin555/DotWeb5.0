@@ -287,7 +287,6 @@ Sample Program Structure
 <!-- End of OakJava7 Machine Learning Program -->
 
 
-
 Explanation
 ===========
 
