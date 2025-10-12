@@ -240,10 +240,10 @@ DOTWEB5.0 Syntax with OakJava7 Machine Learning Integration
 Sample Program Structure
 ========================
 
-<!-- Beginning of OakJava7 Machine Learning Program -->
-
+<!-- Beginning of OakJava7 ML Program -->
 <OJ7ML>
 
+  <!-- DESIGN section: GUI, variable declarations, method declarations -->
   <DESIGN
     SRC='
       // Method declarations
@@ -253,7 +253,13 @@ Sample Program Structure
     '
   >
   </DESIGN>
-<OakJava7 
+
+  <!-- OakJava7 Configuration -->
+  <!-- Use "wnosql" as the default database -->
+  <!-- J7Lib includes OakJava7 ML libraries (e.g., Java7ML) -->
+  <!-- Package: ML | Namespace: sampleml1 | Class: misctype1 -->
+  <!-- Type can be "exe" or "dll" -->
+  <OakJava7 
     Package="ML" 
     Database="wnosql" 
     J7Lib="{Java7ML}" 
@@ -261,7 +267,7 @@ Sample Program Structure
     Type="exe"
 
     MAIN='
-      // Main method logic
+      // Main method calls
       Methods1();
       Methods2();
       ?>
@@ -277,7 +283,8 @@ Sample Program Structure
   </OakJava7>
 
 </OJ7ML>
-<!-- End of OakJava7 Machine Learning Program -->
+<!-- End of OakJava7 ML Program -->
+
 
 Note:
 ====
