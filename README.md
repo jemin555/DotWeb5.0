@@ -110,62 +110,57 @@ DOTWEB5.0 is a powerful and versatile programming language that emphasizes secur
 It is designed to work independently of other programming languages and offers a modern alternative to legacy systems.
 With its strong ethical foundation and technical advantages, DOTWEB5.0 stands out as a forward-thinking solution in the evolving landscape of software development.
 
+DOTWEB5.0 with Machine Learning and Data Science: Historical Overview
+=====================================================================
 
+The J@ framework from JDollar Part 2 (J$ Part 2) was originally focused on mathematical statistics and data science.
+These concepts have since been updated and integrated into DOTWEB5.0, leaving only the mathematical statistics component in J@ under JDollar Part 2.
+As a result, JDollar (J$) has contributed its core concepts to the development of DOTWEB5.0.
+Currently, JDollar (J$) holds a conceptual rank of Z′′′′′, and it is projected to reach Z′′′′′′′′′′′ after version 10 and beyond. 
+Notably, JDollar (J$) adopted machine learning and data science principles even before Python did. However, JDollar (J$), DOTWEB5.0, 
+and other WRIT programming languages do not focus on artificial intelligence or robotics development.
 
+Divisions of DOTWEB5.0 Programming Language
+============================================
 
+DOTWEB5.0 is categorized into six distinct divisions:
+- Scroll Server with Java/J2EE, DOTWEB5.0, and JDK 1.8 Compiler
+Note: The DOTWEB5.0 compiler is not used in this configuration. Instead, JDK 1.8 is employed due to compatibility with frameworks like Hibernate, MyBatis, Java Spring, and EJB. DOTWEB5.0 is primarily used to enhance security within the Java/J2EE platform. However, JDK 1.8 and its subsequent versions are not supported by the DOTWEB5.0 compiler.
+JSP and Servlets are not functional in Scroll Server, but EJB and JMS are supported. Sample Hibernate implementations will be available on GitHub.
+- Example Topic: “Write an OJ7 program using Scroll Server with JDK 1.8.”
+Recommendation: Java Spring developers are encouraged to optimize source code for use with Scroll Server.
+- Scroll Server with (.java7) and DOTWEB5.0 Compiler
+- Machine Learning and Data Science using User-Friendly Frameworks (OJ7UA)
+- DOTWEB5.0 Advanced Samples using (.web) and Console Applications
+- DOTWEB5.0 with Remote-X Applications (Advanced Applications)
+- 
+Note: This module is not yet released and will be available in the future.
 
- ABOUT  DOTWEB5.0 with MachineLearning and  Datascience History
-==============================================================
+Frequently Asked Questions
+============================
 
-J@ framework from  J$part2 focused for Mathematical statistics and  Datascience.
-and  such  concept is removed already  and  updated  in  DOTWEB5.0...
-and  now  only  mathematical  statistics concept  is  now found in j@  at  JDollarpart2..
-So  J$ give his  concept to  DOTWEB5.0.
-Now JDollar(J$)  real  rank  is  Rank z'''''. In future
-JDollar(J$) real rank after version 10 it will come up to  Rank Z''''''''''' and so on.
-So  JDollar(J$)  use   machine learning and  datascience before python
-uses  machine learning and  datascience.
-Jdollar(J$),DOTWEB5.0 and  all other  writ  programming language
-is  not  concenterated  in  AI  and  creating robots.
+Can the DOTWEB5.0 compiler work with JDK 1.8 and Java/J2EE frameworks?
+No.
+- Can the DOTWEB5.0 compiler compile JDK 1.8 programs?
+No. It does not support JDK 1.8 or its later versions.
+- Is DOTWEB5.0 a competitor to Java/J2EE?
+No. DOTWEB5.0 operates in a different business domain compared to Oracle.
+- Can DOTWEB5.0 function as a standalone application?
+Yes. It operates independently of Java/J2EE.
+- Is DOTWEB5.0 a high-security programming language?
+Yes.
 
-About DOTWEB5.0 Programming Language Divisions
-==============================================
+Why DOTWEB5.0 Is Superior to Python- Language Fluency
+=====================================================
 
-DOTWEB5.0 is  divided  into  6 types
+DOTWEB5.0 and Java/J2EE resemble fluent English in syntax and readability. Python lacks this fluency.
+- Code Efficiency
+DOTWEB5.0 allows developers to write concise code. Python, while capable of reducing lines of code, can be challenging for developers to manage effectively.
+- Styling and Formatting
+DOTWEB5.0 and Java/J2EE follow camelCase conventions and offer flexible styling options, especially when using IDEs like IntelliJ. Python, on the other hand, struggles with indentation consistency.
+- Syntax and Readability
+DOTWEB5.0 features attractive syntax and enables developers to write fewer lines of code compared to Python, making it a more elegant and efficient language. 
 
-
-
-i) Scroll Server with  Java/j2ee,DOTWEB5.0, and Java (jdk1.8) compiler 
-
-(Note: Here DOTWEB5.0 compiler is not used,instead of that Jdk1.8 compiler is used
-with ScrollServer.Because  Hibernate, Mybatics ,Java Spring are written in Jdk1.8 
-That's why DOTWEB5.0 compiler is not match with java/j2ee frameworks
-Hibernate, Mybatics ,Java Spring ,and EJB. But DOTWEB5.0 will
-be  used  in case of providing security for Java/J2ee platform.
-so Jdk1.8 versions and  next versions of  Jdk1.8 will not be
-supported to be used with DOTWEB5.0 compiler.
-Here Jsp ,and Servlet will not work in Scroll Server.
-but EJB and JMS will work. You can see the sample for hibernate in SAMPLES at github
-that i will tell later.
-
-(Sample-2:Topic: Write   a OJ7 program  with Scroll Program,
-here Jdk1.8 compiler is focused).
-(We advice Java Spring should optimize the source code.So Java(jdk1.8) 
-professionals are permited to be used with most popular server which is Scroll Server.
-)
-
-iii) Scroll Server with (.java7) with DOTWEB5.0 compiler
-
-iv) Machine Learning and  data Science with  UserFriendly frameworks (OJ7UA).
-
-v) DOTWEB5.0  Advanced Samples with  (.web) and  DOTWEB5.0 Console Application.
-
-vi) DOTWEB5.0  with Remote X Application (Advanced Application) ( Not released now, i will come later).
-
-
-
-
-======================================================
 
 Doubtful FAQS?
 ==============
