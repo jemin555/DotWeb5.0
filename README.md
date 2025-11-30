@@ -1,10 +1,11 @@
 DOTWEB5.0
 ===========
 
-DOTWEB5.0 Programming Language: An Overview
+DOTWEB5.0(OJ7) Programming Language: An Overview
 ============================================
 
-DOTWEB5.0 is a programming language developed by Wilmix Jemin J in 2016. It was built using Java, C/C++, and DOTWEB3.0 technologies. 
+DOTWEB5.0 is a programming language developed by Wilmix Jemin J in 2016. It was built using C/C++, and DOTWEB3.0 technologies. 
+DOTWEB5.0 is otherwise known  as  DOTWEB5.0(OJ7). Oakjava7(JAVA7.0) invented by wilmix jemin j  
 This language introduces several advanced features and supports the development of Remote-X applications, which will be discussed in detail later.
 DOTWEB5.0 is primarily designed for creating data structures, console-based applications integrated with WNoSQL databases, and is also applicable in web
 and Remote-X application development. It incorporates advanced object-oriented programming (OOP) concepts. However, the Windows-based application interface 
@@ -17,7 +18,9 @@ distinction also introduced by Wilmix Jemin J. It is important to note that Remo
 are considered more advanced than Remote-X applications. Both are designed with confidentiality in mind, protecting against unauthorized access or replication by malicious actors or competitors.
 DOTWEB5.0 also supports code obfuscation and security features, making it both secure and easy to learn. 
 The platform introduces OJ7, which stands for Jemin Advanced Virtual Application. OJ7 is positioned as being more advanced than Python and other programming languages.
-The Linux version of DOTWEB5.0 was implemented in 2021 using C/C++, Java, and DOTWEB3.0.
+The Linux version of DOTWEB5.0 was implemented in 2021 using C/C++, and DOTWEB3.0.
+
+Any Professionals can learn this  tutorial  which is : https://sites.google.com/view/dotweb5programmingtutorial/dotweb5-tutorial 
 
 Definition of DOTWEB5.0 Programming Language
 ============================================
