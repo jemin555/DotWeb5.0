@@ -38,6 +38,35 @@ The name DOTWEB5.0 carries symbolic meaning:
 - B can represent various contextual meanings, including "brother," "babe," "bae," "boo," or serve as a shortened form of words like "baseball" or "born."
 - 5 signifies adventure like used in Remote X Application.
 - 0 represent element of addition,ie) Additonal Dotweb5.0 features are found.
+
+Advantages of DOTWEB5.0 Over all Programming Languages
+======================================================
+
+->It is easy to create Consoleapplication
+->It is easy to create Webapplication
+->It has Advanced DataStructures
+->It is easy to solve complex applications
+->It is used to provide high security
+->It is used to provide Obfuscation class files
+->It is used in DataScience and Machine Learning
+->It is used in Artificial Intelligence for web application and Remote -X application
+->It is used in RAI (Remote Advanced Intelligence). This is a new concept for Remote X application.
+->It is used to create single page application.
+->It have 100% pure Oops concepts
+->It is used to create a Stand alone application
+->It is learnable (Easy to learn and focus)
+->It is Faster than All programming languages and it Provide optimized code.
+->It is a Interactive Programming Language example) it Used with Java,C#.
+So Dotweb5.0 is consider to be Rank Z' due to more Advanced.
+
+Faqs ?
+======
+
+I will first tell about console application,Webapplication, Security, Single page application, 
+after that i go for Machine Learning .,Datascience ,AI and RAI 
+and Finaly i will explain about Remote -X application.
+
+
   
 
 About the Author: Wilmix Jemin J
