@@ -5873,3 +5873,687 @@ Total Nodes → 11
 
 
 
+=============================================================================================
+
+      Basic DataStructures Simillar to  Java for Java Professionals
+
+============================================================================================
+
+
+Define HashMap in Dotweb5.0
+
+In Dotweb5.0 and Java, a HashMap is a data structure that stores elements in key–value pairs,
+
+ where each key is unique and maps to exactly one value. 
+
+The Dotweb Collections Framework, implements the Map interface, and internally uses hashing 
+
+to provide fast lookups, insertions, and deletions (average time complexity O(1)).
+
+
+🧩 Key Characteristics of HashMap
+
+• 	Keys are unique → No duplicate keys allowed.
+
+• 	Values can be duplicated → Multiple keys can map to the same value.
+
+• 	Nulls allowed → One  key and multiple  values are permitted.
+
+• 	Unordered → Does not preserve insertion order. If you need order, use .
+
+• 	Not thread-safe → Concurrent access must be synchronized externally or use .
+
+• 	Performance → Average O(1) for put() ,get() , and remove() operations under good hash distribution.
+
+
+⚡ Example Usage
+
+Write  a  Hashmap  program  in Dotweb 5.0  to add  the key and values [Alice=25, Bob=30, Charlie=20, David=40]  and  Sort by Key and  Value  Ascending and  Descending respectively. And  get the value of  Alice.
+
+And remove Alice key and value. And finaly check where  Alice key and  value exists or not.
+
+
+Program
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+
+<PRINTLN>("                 J7HashMap  EXAMPLES                          ");
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+
+OJ7Lib.J7HashMap map99 = new OJ7Lib.J7HashMap();
+
+
+        map99.put("Alice", 25);
+
+        map99.put("Bob", 30);
+
+        map99.put("Charlie", 20);
+
+        map99.put("David", 40);
+
+
+<PRINTLN>("Sorted by Key Ascending:");
+
+
+map99.printSortedByKeyAsc();
+
+<PRINTLN>("Sorted by Key Descending:");
+
+map99.printSortedByKeyDesc();
+
+
+<PRINTLN>("Sorted by Value Ascending:");
+
+map99.printSortedByValueAsc();
+
+<PRINTLN>("Sorted by Value Descending:");
+
+map99.printSortedByValueDesc();
+
+
+<PRINTLN>(map99.get("Alice"));
+
+
+map99.remove("Alice");
+
+<PRINTLN>(map99.containsKey("Alice")); // true
+
+
+🧩 Program Breakdown
+
+
+1. Printing a Header
+
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+<PRINTLN>("                 J7HashMap  EXAMPLES                          ");
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+This simply prints a decorative header to the console, marking the start of the demo.
+
+2. Creating a J7HashMap
+
+OJ7Lib.J7HashMap map99 = new OJ7Lib.J7HashMap();
+
+map99 is an instance of your custom J7HashMap class (similar to Java’s HashMap).
+
+It will store key–value pairs where keys are names (String) and values are ages (Integer).
+
+3. Adding Entries
+
+map99.put("Alice", 25); map99.put("Bob", 30); map99.put("Charlie", 20); map99.put("David", 40);
+
+Four entries are inserted into the map:
+
+"Alice" → 25
+
+"Bob" → 30
+
+"Charlie" → 20
+
+"David" → 40
+
+4. Sorting by Keys
+
+<PRINTLN>("Sorted by Key Ascending:");
+
+map99.printSortedByKeyAsc();
+
+<PRINTLN>("Sorted by Key Descending:");
+
+map99.printSortedByKeyDesc();
+
+
+Ascending → Keys will be printed in alphabetical order: Alice, Bob, Charlie, David.
+
+Descending → Keys will be printed in reverse alphabetical order: David, Charlie, Bob, Alice.
+
+5. Sorting by Values
+
+<PRINTLN>("Sorted by Value Ascending:");
+
+map99.printSortedByValueAsc();
+
+<PRINTLN>("Sorted by Value Descending:");
+
+map99.printSortedByValueDesc();
+
+Ascending → Values sorted numerically: Charlie=20, Alice=25, Bob=30, David=40.
+
+Descending → Reverse order: David=40, Bob=30, Alice=25, Charlie=20.
+
+6. Accessing a Value
+
+<PRINTLN>(map99.get("Alice"));
+
+Retrieves the value for key "Alice".
+
+Output: 25.
+
+
+7. Removing an Entry
+
+map99.remove("Alice");
+
+Deletes the entry for "Alice" from the map.
+
+8. Checking Existence
+
+<PRINTLN>(map99.containsKey("Alice")); // true
+
+
+After removal, this checks if "Alice" still exists.
+
+Since she was removed, the result should be false (the comment // true looks incorrect).
+
+
+⚡ Expected Output (Simplified)
+
+------------------------------------------------------------------------------------
+
+                 J7HashMap  EXAMPLES                          
+
+------------------------------------------------------------------------------------
+
+Sorted by Key Ascending:
+
+Alice=25
+
+Bob=30
+
+Charlie=20
+
+David=40
+
+
+Sorted by Key Descending:
+
+David=40
+
+Charlie=20
+
+Bob=30
+
+Alice=25
+
+
+Sorted by Value Ascending:
+
+Charlie=20
+
+Alice=25
+
+Bob=30
+
+David=40
+
+
+Sorted by Value Descending:
+
+David=40
+
+Bob=30
+
+Alice=25
+
+Charlie=20
+
+25
+
+false
+
+
+Note: 
+
+So this program demonstrates basic HashMap operations (put, get, remove, containsKey) plus custom sorting methods (printSortedByKeyAsc/Desc, printSortedByValueAsc/Desc) that your J7HashMap class provides.
+
+
+Define  Concurrent HashMap
+
+A ConcurrentHashMap in Java is a thread‑safe implementation of the  interface that allows multiple threads to read and write data simultaneously without locking the entire map. It is designed for high‑concurrency environments where many threads need to access and modify shared data safely.
+
+⚡ Example Usage
+
+Program
+
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+<PRINTLN>("                 J7Concurrent HashMap  EXAMPLES                          ");
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+OJ7Lib.J7ConcurrentHashMap map19 = new OJ7Lib.J7ConcurrentHashMap(16);
+
+        // put and get
+
+        map19.put("A", 1);
+
+        <PRINTLN>(map19.get("A"));
+
+    map19 = map19.ComputeIfAbsent(map19, "B", "42");
+
+    <PRINTLN>(map19.get("B")); 
+
+    map19 = map19.ComputeIfPresent(map19, "A", "46");
+
+    <PRINTLN>(map19.get("A")); 
+
+
+    map19 = map19.Merge(map19, "B", " ", 3);
+
+    <PRINTLN>(map19.get("B")); 
+
+
+    map19 = map19.Visit(map19, "", "");
+
+    <PRINTLN>(map19.get("A")); 
+
+
+map19.remove("B");
+
+
+if (map19.get("B")NOT=null)
+
+
+  <PRINTLN>("The  Key B is  found");
+
+else
+
+
+  <PRINTLN>("The  Key B is not found");
+
+
+
+
+🧩 Detailed Explanation
+
+🔑 Key Features
+
+• 	Thread Safety → Unlike , which is not synchronized,  ensures safe concurrent access.
+
+• 	Fine‑grained locking → Instead of locking the whole map, it locks only portions (called segments in older versions, or bins in newer ones). This improves performance.
+
+• 	No nulls allowed → It does not permit  keys or  values.
+
+• 	Atomic operations → Provides methods like , , and  that execute atomically.
+
+• 	Performance → Reads are usually lock‑free, and updates use minimal locking, making it faster than .
+
+• 	Default concurrency level → Typically 16, meaning up to 16 threads can modify the map 
+
+        concurrently without blocking each other.
+
+
+🧩 Step‑by‑Step Explanation
+
+Print a header
+
+<PRINTLN>("------------------------------------------------------------------------------------"); 
+
+<PRINTLN>(" J7Concurrent HashMap EXAMPLES "); 
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+This simply prints a decorative banner to mark the start of the demonstration.
+
+Create a concurrent hash map
+
+OJ7Lib.J7ConcurrentHashMap map19 = new OJ7Lib.J7ConcurrentHashMap(16);
+
+A new J7ConcurrentHashMap object is created with an initial capacity of 16. This is your custom concurrent map implementation.
+
+Put and get a value
+
+   map19.put("A", 1); (map19.get("A"));
+
+Adds the key "A" with value 1.
+
+Retrieves and prints the value for "A", which is 1.
+
+Compute if absent
+
+           map19 = map19.ComputeIfAbsent(map19, "B", "42"); (map19.get("B"));
+
+If key "B" is not already present, it is added with the value "42".
+
+Prints the value of "B", which becomes "42".
+
+ Compute if present
+
+map19 = map19.ComputeIfPresent(map19, "A", "46"); (map19.get("A"));
+
+If key "A" exists, its value is updated to "46".
+
+Prints the new value of "A", which is "46".
+
+Merge values
+
+map19 = map19.Merge(map19, "B", " ", 3); (map19.get("B"));
+
+Merges the existing value of "B" with 3.
+
+The logic in your Merge method adds integers, so "42" (if treated as a number) plus 3 becomes 45.
+
+Prints the updated value of "B".
+
+
+Visit all entries
+
+map19 = map19.Visit(map19, "", ""); (map19.get("A"));
+
+Iterates through all key–value pairs in the map and prints them.
+
+Then prints the value of "A" again, which is "46".
+
+Remove a key and check existence
+
+map19.remove("B"); if (map19.get("B") NOT = null) ("The Key B is found"); else ("The Key B is not found");
+
+Removes the key "B" from the map.
+
+Checks if "B" still exists. Since it was removed, map19.get("B") returns null.
+
+Prints: “The Key B is not found”.
+
+
+📊 Summary 
+
+This program demonstrates how to use a J7ConcurrentHashMap by:
+
+Adding and retrieving values (put, get).
+
+Conditionally inserting (ComputeIfAbsent).
+
+Conditionally updating (ComputeIfPresent).
+
+Merging values (Merge).
+
+Iterating over entries (Visit).
+
+Removing a key and checking if it still exists (remove, get).
+
+At the end, the program confirms that key "B" has been removed and is no longer found in the map.
+
+
+🚨 Key Considerations
+
+Use ConcurrentHashMap when multiple threads need to update a shared map.
+
+Avoid it if you need insertion order or sorted order (use ConcurrentSkipListMap instead).
+
+Remember: it disallows null keys and values to prevent ambiguity in concurrent operations.
+
+In short: ConcurrentHashMap is a high‑performance, thread‑safe map designed for concurrent applications, 
+
+making it ideal for caches, registries, and shared data structures in multi‑threaded systems.
+
+
+⚡ Expected Output (Simplified)
+
+
+------------------------------------------------------------------------------------
+
+                 J7Concurrent HashMap  EXAMPLES                          
+
+------------------------------------------------------------------------------------
+
+1
+
+42
+
+46
+
+45
+
+A -> 46
+
+B -> 45
+
+46
+
+The  Key B is not found
+
+
+
+
+Define  ArrayList
+
+An ArrayList is a resizable array implementation provided in Java’s and Dotweb Collections Framework.and for Dotweb5.0 Util  package is  called as OJ7Lib It’s part of the  package and is widely used because it combines the simplicity of arrays with the flexibility of dynamic resizing.
+
+🔑 Key Characteristics of ArrayList
+
+
+• 	Dynamic size: Unlike arrays, which have a fixed length, an ArrayList can grow or shrink as elements are added or removed.
+
+• 	Indexed access: Elements can be accessed directly using their index (just like arrays).
+
+• 	Ordered collection: Maintains the order of insertion.
+
+• 	Allows duplicates: You can store duplicate elements.
+
+• 	Supports null values: Multiple  entries are allowed.
+
+• 	Not synchronized: By default, ArrayList is not thread-safe. For multi-threaded use, you’d need synchronization.
+
+
+Program  for  J7Arraylist
+
+
+<PRINTLN("------------------------------------------------------------------------------------");
+
+
+<PRINTLN>("                 J7ARRAYLIST  EXAMPLES                          ");
+
+<PRINTLN>("------------------------------------------------------------------------------------");
+
+
+
+    // Create a J7ArrayList of Strings
+
+        OJ7Lib.J7ArrayList names = new OJ7Lib.J7ArrayList();
+
+
+        // Add elements
+
+        names.add("Alice");
+
+        names.add("Bob");
+
+        names.add("Charlie");
+
+        names.add("Diana");
+
+
+        <PRINTLN>("Initial list:");
+
+        foreach (String name in  names) {
+
+            <PRINTLN>(name);
+
+        }
+
+
+        // Get element by index
+
+        <PRINTLN>("\nElement at index 2: " + names.get(2));
+
+
+        // Set element at index
+
+        names.set(1, "Bobby");
+
+        <PRINTLN>("\nAfter setting index 1 to 'Bobby':");
+
+        foreach (String name in  names) {
+
+            <PRINTLN>(name);
+
+        }
+
+
+        // Remove element by index
+
+        names.remove(0);
+
+        <PRINTLN>("\nAfter removing element at index 0:");
+
+        foreach (String name in  names) {
+
+            <PRINTLN>(name);
+
+        }
+
+
+        // Remove element by value
+
+        names.remove("Charlie");
+
+        <PRINTLN>("\nAfter removing 'Charlie':");
+
+        foreach (String name in  names) {
+
+            <PRINTLN>(name);
+
+        }
+
+
+        // Check contains
+
+        <PRINTLN>("\nContains 'Diana'? " + names.contains("Diana"));
+
+        <PRINTLN>("Contains 'Alice'? " + names.contains("Alice"));
+
+
+        // Size
+
+        <PRINTLN>("\nSize of list: " + names.size());
+
+
+        // Clear
+
+        names.clear();
+
+        <PRINTLN>("\nAfter clear, isEmpty? " + names.isEmpty());
+
+
+📝 Brief Explanation of the Program
+
+
+This program demonstrates the use of OJ7Lib.J7ArrayList (similar to Java’s ArrayList) with basic operations:
+
+Initialization
+
+A new J7ArrayList of Strings is created to store names.
+
+Adding Elements
+
+Names like "Alice", "Bob", "Charlie", and "Diana" are added to the list.
+
+Displaying Elements
+
+A foreach loop prints all elements in the list.
+
+Accessing by Index
+
+names.get(2) retrieves the element at index 2 (Charlie).
+
+Updating Elements
+
+names.set(1, "Bobby") replaces "Bob" with "Bobby".
+
+Removing Elements
+
+names.remove(0) removes the first element (Alice).
+
+names.remove("Charlie") removes the element by value.
+
+Checking Existence
+
+names.contains("Diana") returns true.
+
+names.contains("Alice") returns false after removal.
+
+Size of List
+
+names.size() shows the number of elements currently in the list.
+
+Clearing the List
+
+names.clear() removes all elements.
+
+names.isEmpty() confirms the list is empty.
+
+👉 Essentially, the program is a step-by-step demo of ArrayList operations: add, get, set, remove, contains, size, and clear.
+
+
+
+⚡ Expected Output (Simplified)
+
+
+
+------------------------------------------------------------------------------------
+
+                 J7ARRAYLIST  EXAMPLES                          
+
+------------------------------------------------------------------------------------
+
+Initial list:
+
+Alice
+
+Bob
+
+Charlie
+
+Diana
+
+
+Element at index 2: Charlie
+
+
+After setting index 1 to 'Bobby':
+
+Alice
+
+Bobby
+
+Charlie
+
+Diana
+
+
+After removing element at index 0:
+
+Bobby
+
+Charlie
+
+Diana
+
+
+After removing 'Charlie':
+
+Bobby
+
+Diana
+
+
+Contains 'Diana'? True
+
+Contains 'Alice'? False
+
+
+Size of list: 2
+
+
+===============================================================================================
+
+Note: This  Tutorial  website  is  under construction
+
+
