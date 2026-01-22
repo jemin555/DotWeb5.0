@@ -9,8 +9,8 @@ Dotweb5  is  a  most standard,best,powerful,secure, and  Advanced Technology inv
 DOTWEB5.0(OJ7) Programming Language: An Overview
 ============================================
 
-DOTWEB5.0 is a programming language developed by Wilmix Jemin J in 2016. It was built using C/C++, and DOTWEB3.0 technologies. 
-DOTWEB5.0 is otherwise known  as  DOTWEB5.0(OJ7). Oakjava7(JAVA7.0) invented by wilmix jemin j  
+DOTWEB5.0 is a programming language developed by Wilmix Jemin J in 2016. It was built using C/C++,java and DOTWEB3.0 technologies. 
+DOTWEB5.0 is otherwise known  as  DOTWEB5.0(OJ7) invented by wilmix jemin j  
 This language introduces several advanced features and supports the development of Remote-X applications, which will be discussed in detail later.
 DOTWEB5.0 is primarily designed for creating data structures, console-based applications integrated with WNoSQL databases, and is also applicable in web
 and Remote-X application development. It incorporates advanced object-oriented programming (OOP) concepts. However, the Windows-based application interface 
