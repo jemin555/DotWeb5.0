@@ -49,7 +49,7 @@ Difference between  Dotweb5.0 Programming Language and Oakjava7(JAVA7.0) program
 Dotweb5.0 is used only with  JAVA and Dotnet.
 Dotweb5.0 is used to construct Remote X application.
 But OakJava7(JAVA7.0) is used with Java,Dotnet,Python.
-Oakjava7(JAVA7.0) is used to construct Remote X application.
+Oakjava7(JAVA7.0) is used to construct Remote Web application.
 but it is more advanced  than Dotweb5.0 Programming language.
 
 
