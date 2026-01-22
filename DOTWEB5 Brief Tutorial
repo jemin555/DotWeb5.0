@@ -1,0 +1,5875 @@
+
+🌟 DOTWEB5.0 Tutorial
+
+
+✨ UNIT‑1 : Introduction to DOTWEB5.0(OJ7) Programming Language
+
+
+📘 Definition
+
+DOTWEB5.0 is a programming language designed for code security and console-based software development. It is advanced, learnable, and applicable in various domains such as software development, remote applications (Remote X), web applications, and machine learning. It is symbolized by a star icon and works with frameworks like the Scroll Framework.
+
+🧑‍💻 About DOTWEB5.0
+
+DOTWEB5.0 was invented by Wilmix Jemin J in 2013, evolving from Java and DOTWEB3.0. Earlier versions of Java (JDK 1.7 and JDK 1.8) were vulnerable to source code extraction using tools like JAD decompiler. This inspired the creation of DOTWEB5.0 to enhance security and prevent easy reverse engineering. 
+
+Special thanks to Venkat, GitHub, and other supporters for their contributions.
+
+⚠️ Limitations of Java and C#
+
+Java class files are easily decompiled using JAD, making software vulnerable.
+
+DOTWEB5.0 addresses this by translating .java7 files into secure DOTWEB5.0 class files, which are not easily understood by hackers.
+
+It is not intended for GUI development (e.g., Java Swing).
+
+🛠️ Can You Build a Compiler Like Java?
+
+Yes. Using Java, you can build compilers for Java or other languages. While some may criticize this approach, it aligns with compiler design principles. The same applies to languages like C. However, the focus of DOTWEB5.0 is not on GUI frameworks like Java Swing or J2EE, due to concerns about misinformation and competitive sabotage.
+
+🧪 Compiler Design History
+
+At age 21, Wilmix Jemin J designed a compiler in VC++.
+
+Later, he developed a mini compiler in Java.
+
+🚀 Why Is DOTWEB5.0 More Advanced?
+
+It uses fluent, English-like syntax similar to Java/J2EE.
+
+It reduces lines of code significantly.
+
+It supports camel case and integrates well with IDEs like IntelliJ.
+
+The author opposes robot development due to ethical concerns but supports AI.
+
+The OakJava8 module excels in mobile computing.
+
+📦 DOTWEB5.0 Modules
+
+DOTWEB5.0 is divided into two modules:
+
+Module 1
+
+Module 2
+
+Module Overview
+
+DOTWEB5.0 keywords resemble Java, making it easy for Java professionals to adopt. It supports console applications, web development, machine learning, data science, and Remote X applications. Module 1 is primarily used by Java and DOTWEB5.0 professionals. Remote X will be released after the completion of machine learning and data science modules.
+
+🔑 Reserved Keywords in DOTWEB5.0 (Module 1)
+
+These keywords cannot be used as variable names, method names, class names, or other identifiers.
+
+
+abstract
+
+
+assert
+
+
+boolean
+
+
+break
+
+
+byte
+
+
+case
+
+
+char
+
+
+continue
+
+
+default
+
+
+do
+
+while
+
+double
+
+
+else
+
+
+enum
+
+
+<---
+
+
+final
+
+
+
+
+float
+
+
+for
+
+
+if
+
+
+-->
+
+
+
+
+instanceof
+
+
+int
+
+
+interface
+
+
+long
+
+
+native
+
+
+new
+
+
+
+
+private
+
+
+protected
+
+
+public
+
+
+return
+
+
+short
+
+
+
+
+
+
+switch
+
+
+synchronized
+
+
+
+
+throw
+
+
+throws
+
+
+transient
+
+
+
+
+void
+
+
+volatile
+
+
+while
+
+
+🧪 Sample Program: testme.java7
+
+
+testme.java7
+
+
+<JAVA7>
+
+
+public <CLASS> testme 
+
+//--> Runnable
+
+<--- <Thread>
+
+
+<%
+
+
+
+
+
+public <SHARED> int sum()
+
+
+{
+
+
+int b;
+
+
+
+return(2+3);
+
+}
+
+     public synchronized void <RUN>
+
+
+{
+
+
+<TRY>
+
+{
+
+<PRINTLINE>(" Under Weight is less than  15 your health is  worst ="+sum());
+
+
+<Thread>.sleep(1000); 
+
+throw new Exception();
+
+}
+
+
+<CATCH> (Exception e)
+
+{
+
+<PRINTLINE>(""+e);
+
+
+
+}
+
+
+
+}
+
+
+
+ <MAIN>
+
+
+          <%
+
+<TRY>
+
+
+{
+
+
+
+testme t <NEW> testme();
+
+
+t.start();
+
+
+
+testme t1 <NEW> testme();
+
+
+t1.start();
+
+                 int value = 15;
+
+if (value >=15)
+
+{
+
+        assert value >= 25 : " Underweight";
+
+      <PRINTLINE>(" value is " + value);
+
+
+}
+
+else
+
+{
+
+ <PRINTLINE>(" Under Weight is less than  15");
+
+}
+
+
+
+}
+
+
+<CATCH> (Exception e)
+
+{
+
+
+<PRINTLINE>(""+e);
+
+
+}
+
+
+<FINALLY> 
+
+
+{
+
+
+<PRINTLINE>("   note: please enter accurately");
+
+
+
+}
+
+
+         %>
+
+
+</JAVA7>
+
+
+🖥️ Output
+
+Value is 15 
+
+Underweight is less than 15. 
+
+Your health is poor = 5
+
+ Underweight is less than 15. 
+
+Your health is poor = 5
+
+ Note: Please enter accurately
+
+ java.lang.Exception 
+
+java.lang.Exception
+
+
+💎 DotWeb5.0 Reserved Keywords – Module 2
+
+DotWeb5.0 defines a set of reserved keywords that cannot be used as variable names, method names, class names, or other identifiers. In Module 2, we focus on developing prototype software (e.g., .exe files) for console-based DotWeb5.0 applications. This module is designed to be accessible for professionals familiar with DotWeb5.0, Java, and J2EE.
+
+🔑 Reserved Keywords Overview
+
+DotWeb5.0 includes 50 reserved keywords. Below is a summary of their purpose:
+
+
+<ABSTRACT> 
+
+-> Abstract class can be created using <ABSTRACT> keyword. 
+
+
+<BREAK> -> Break out of loop
+
+
+<CASE>  -> Case keyword is used as option with Switch statement.
+
+
+<CATCH> => It is used to catch Exceptions.
+
+
+<CLASS> -> Class is the collection of objects
+
+
+<CONTINUE> -> Continue with in a loop
+
+
+<DO> --- <WHILE> -> <DO> keyword  is used with While loop. While  will continue executes statements in the block
+
+until the condition in while is  true.
+
+<ELSE>  -> <ELSE> key word  is  followed after <IF> statement
+
+
+<ENUM> => 
+
+
+An enum is a special "class" that represents a group of constants (unchangeable/read-only variables).
+
+
+
+<FINALLY> => The Keyword <FINALLY> is used in finally block. It did not mind whether there is catch block present or not. It will  always execute...
+
+
+
+<FOR> => This keyword is used for  Forloop.
+
+
+<FOREACH> => 
+
+
+The foreach loop is used to iterate over the elements of the collection.
+
+ The collection may be an array or a list or  set. 
+
+It executes for each element present in the array.
+
+
+<GOTO> goto => <GOTO> keyword is  used with labels.
+
+
+<IF> => <IF> keyword is for condition purpose
+
+
+is =>  The is keyword operator is used to check if the run-time type of an object is compatible with the given type or not. 
+
+It returns true if the given object is of the same type otherwise, return false. It also returns false for null objects. 
+
+
+<IN> => It is  used for the given element is  present or not.
+
+
+<OBJECT> => object are the  instance of the class  that 
+
+are created to use the attributes and methods of a class.
+
+<INTERFACE> =>  Interface is used multiple inheritance
+
+<DEFAULT>   => Default Keyword is used with the switch statement.
+
+<BASE> => base keyword, we can call the base class method also. It is useful if base and derived classes defines same method. 
+
+In other words, if method is overridden.
+
+<LOCK> => 
+
+Lock keyword ensures that one thread is executing a piece of code at one time. The lock keyword ensures that one thread does not enter a critical section of code   while another thread is in that critical section.
+
+<PACK> => <PACK> keyword means PACKAGE in DotWeb5.0.
+
+A package is a namespace that organizes a set of related classes and interfaces.
+
+<NEW>  => It is used to create a object of the class.
+
+<OPERATOR> => It is used for Operator loading.
+
+<READONLY> =>
+
+The readonly keyword can be used to define a variable or an object as readable only.
+
+ This means that the variable or object can be assigned a value at the class scope
+
+ or in a constructor only. You cannot change the value or reassign a value to a readonly variable
+
+ or object in any other method except the constructor.
+
+<RET> -> Return the Value of any type
+
+
+<SIZEOF> => The sizeof operator returns the number of bytes occupied by a variable of a given type.
+
+<TYPEOF> => It is used to get a Type object representing String.
+
+void => Void type means we  can  call the method in the main program section.It have no return type. 
+
+Shared => If a class is static and it contains any  userdefined methods. That can be  called in main class
+
+without creating a Object. eg) student is the static class which contains display method.Then
+
+how it  can be  called , that can be  achieved using student.display().
+
+
+<STR>  => <STR> keyowrd is String in DotWeb5.0
+
+<STRUCT> => This  keyword represents structure of records.
+
+<SWITCH> => switch keyword is  used  to select one of many code blocks to be executed.
+
+<IS> => <IS> keyword represent this
+
+
+<TRY> => This represent try block
+
+<THROW> => This is used to throw the  exception 
+
+<USE> => This is  used to  call any DotWeb5.0 libraries or DotWeb5.0 packages and  we can reuse it.
+
+<VIRTUAL> =>
+
+ virtual method is a method that can be overridden in a derived class. When a method is declared as 
+
+virtual in a base class, it allows a derived class to provide its own implementation of the method.
+
+<VOLATILE> => This keyword represent synchronization happen at variable. All threads can access the 
+
+Volatile variable.
+
+<WHILE> => This keyword represent  while loop
+
+<JAVA7>  => This keyword is used to load io packages.Which will b  used  with Java/J2ee professionals.
+
+<JAVA>  => This keyword is used to load io packages, used to create  a prototype console and  web application ,etc.
+
+<HEAPJ7> => HeapJ7 keyword respresent we  can store any objects contains millions of  data by using the J7heap. It is  used to avoid Memmory overflow...
+
+<CONVERTARRAYLIST> ,J7mem.ConverttoArrayList => This ConverttoArrayList method is  used to convert string to arraylist.
+
+<OVERRIDE> => This keyword is  used to override the  method of parent  class.
+
+bool => This keyword will be  used to  hold the true or  false value.The bool indicates boolean in DotWeb5.0. eg) bool a =true; bool b=false;
+
+get and  set  => get keyword is used for retrieving data. And set is  used for setting value.
+
+
+<OAKJAVA7SECURITY> => This  is use to maintain security for  DotWeb5.0 executable file.
+
+
+=========================================================================================================
+
+💠 Diamond Modules
+
+DotWeb5.0 Module-1 and Module-2 are collectively referred to as the Diamond Module, supporting .java7 programs. When compiled using the DOTWEB5.0 compiler, a .java7 file produces both .jclass and .exe outputs. DOTWEB5.0 is open-source and available for DotWeb5.0 professionals.
+
+A third module focused on security is available in the DotWeb5.0 Enterprise Edition.
+
+
+⚙️ DotWeb5.0 Structure
+
+What Is a Structure?
+
+A structure is a value-type data construct that allows a single variable to hold related data of various types.
+
+Syntax
+
+AccessModifier StructureName {
+
+ // Structure block contains: 
+
+// Fields, Parameterized constructors, Constants, Properties, 
+
+// Various data types, and Methods 
+
+}
+
+
+📘 Example: Copying Structure Data
+
+
+Goal: Create a structure named Person with fields Name, Age, and Weight. Assign values and copy data from one structure to another.
+
+Filename: j7samplestructure.java7
+
+// DotWeb5.0 program to illustrate structure copying StructApplication 
+
+<JAVA>
+
+// DotWeb5.0 program to illustrate copy the structure
+
+<PACK> StructApplication {
+
+
+// Defining structure
+
+public <STRUCT> Person
+
+{
+
+	// Declaring different data types
+
+	public string Name;
+
+	public int Age;
+
+	public int Weight;
+
+
+}
+
+
+<CLASS> JITs {
+
+	
+
+	// Main Method
+
+	public void main() 
+
+	{
+
+
+		// Declare P1 of type Person
+
+		Person P1;
+
+
+		// P1's data
+
+		P1.Name = "Wilmix Jemin";
+
+		P1.Age = 21;
+
+		P1.Weight = 58;
+
+		
+
+		// Declare P2 of type Person
+
+		Person P2;
+
+		
+
+		// Copying the values of P1 into P2
+
+		P2 = P1;
+
+
+		// Displaying the values of P1
+
+		<PRINTLN>("Values Stored in P1");
+
+		<PRINTLN>("Name: " +P1.Name);
+
+		<PRINTLN>("Age: " +P1.Age);
+
+		<PRINTLN>("Weight: " +P1.Weight);
+
+		<PRINTLN>("");
+
+		
+
+		// Displaying the values of P2
+
+		<PRINTLN>("Values Stored in P2");
+
+		<PRINTLN>("Name: " +P2.Name);
+
+		<PRINTLN>("Age: " +P2.Age);
+
+		<PRINTLN>("Weight: " +P2.Weight);
+
+							
+
+	}
+
+}
+
+}
+
+
+🖥️ Output
+
+
+Values Stored in P1
+
+Name: Wilmix Jemin
+
+Age: 21
+
+Weight: 58
+
+
+Values Stored in P2
+
+Name: Wilmix Jemin
+
+Age: 21
+
+Weight: 58
+
+
+
+✨ Operator Overloading in DotWeb 5.0
+
+📘 What Is Operator Overloading?
+
+In DotWeb 5.0, operator overloading allows developers to redefine the behavior of standard operators (like +, -, *, /) for user-defined types. This is achieved using a special method called an operator function.
+
+🔧 Key Characteristics of Operator Functions
+
+Must be declared as public static
+
+Use the keyword operator followed by the operator symbol
+
+Accept one argument for unary operators and two for binary operators
+
+🧾 Syntax
+
+
+public static return-type operator op (argument list)
+
+op is the operator to be overloaded
+
+operator is a required keyword
+
+
+🧪 Example Program: Operator Overloading in DotWeb 5.0
+
+This example demonstrates how to overload binary operators (, , , ) for a custom  class.
+
+📄 File: Calculator.java
+
+
+<JAVA>
+
+
+<PACK> calcpackage {
+
+	
+
+<CLASS> Calculator {
+
+	
+
+	public int number = 0;
+
+	
+
+	// no-argument constructor
+
+	public Calculator() {}
+
+	
+
+	
+
+	// parameterized constructor
+
+	public Calculator(int n)
+
+	{
+
+		number = n;
+
+	}
+
+	
+
+	// Overloading of Binary "+" operator
+
+	public Shared Calculator <OPERATOR>+ (Calculator Calc1,Calculator Calc2)
+
+	{
+
+		Calculator Calc3 <NEW> Calculator(0);
+
+		Calc3.number = Calc2.number + Calc1.number;
+
+		return Calc3;
+
+	}
+
+
+        // Overloading of Binary "-" operator
+
+	public Shared Calculator <OPERATOR>- (Calculator Calc1,Calculator Calc2)
+
+	{
+
+		Calculator Calc3 <NEW> Calculator(0);
+
+		Calc3.number = Calc2.number - Calc1.number;
+
+		return Calc3;
+
+	}
+
+	
+
+
+// Overloading of Binary "*" operator
+
+	public Shared Calculator <OPERATOR>* (Calculator Calc1,Calculator Calc2)
+
+	{
+
+		Calculator Calc3 <NEW> Calculator(0);
+
+		Calc3.number = Calc2.number * Calc1.number;
+
+		return Calc3;
+
+	}
+
+
+// Overloading of Binary "/" operator
+
+	public Shared Calculator <OPERATOR>/ (Calculator Calc1,Calculator Calc2)
+
+	{
+
+		Calculator Calc3 <NEW> Calculator(0);
+
+		Calc3.number = Calc1.number / Calc2.number;
+
+		return Calc3;
+
+	}
+
+
+
+	// function to display result
+
+	public void Print()
+
+	{
+
+		<PRINTLN>("{0}", number);
+
+	}
+
+}
+
+
+
+<CLASS> CalNum {
+
+	
+
+	// Driver Code
+
+     public void main()
+
+	{
+
+		
+
+		Calculator num1 <NEW> Calculator(500);
+
+		Calculator num2 <NEW> Calculator(80);
+
+		Calculator num3 <NEW> Calculator();
+
+		
+
+	 <PRINTLN>("------------------------------------");	
+
+		num3 = num1 + num2;
+
+		
+
+		num1.Print(); // Displays 500
+
+		
+
+		num2.Print(); // Displays 80
+
+		
+
+		num3.Print(); // Displays 580
+
+ <PRINTLN>("------------------------------------");
+
+              num3 = num1 - num2;
+
+
+               num3.Print();
+
+              <PRINTLN>("------------------------------------");
+
+                num3 = num1 * num2;
+
+
+               num3.Print();
+
+ <PRINTLN>("------------------------------------");
+
+                  num3 = num1 / num2;
+
+
+               num3.Print();
+
+
+		
+
+	}
+
+}
+
+}
+
+
+
+🖥️ Output
+
+------------------------------------ 
+
+500
+
+80 
+
+580 
+
+------------------------------------ 
+
+420 
+
+------------------------------------ 
+
+40000 
+
+------------------------------------ 6
+
+
+
+
+🌐 DotWeb5.0 Error Documentation
+
+📘 Module 1: Basic Error Handling
+
+Module 1 is straightforward. Whenever an error occurs, it is automatically logged in the out.txt file located in the directory where the oakjava7 files reside.
+There is no need for in-depth study—just practice, and you’ll grasp it quickly.
+
+📘 Module 2: Error Code Reference
+
+This document provides detailed explanations for each DotWeb5.0 error code.
+For example, when compiling a program using Webc7 .java7 or .web extension, an error such as int c = 100 / 0; will trigger a message box displaying:
+
+Line No: [X] Error Code: J70020 → Division by constant zero
+
+Similar error models exist for other types of errors.
+
+🧪 Running DotWeb5.0 in JShell (Instead of Command Prompt)
+
+Follow these steps to run DotWeb5.0 using JShell:
+
+Launch JShell
+
+Double-click the Jshell.bat file in your folder.
+
+In this example, .java7 files are stored in the wilmix7 directory.
+
+Alternatively, create a .bat file that runs Java7Shell.exe and includes the path C:/oakjava7/src.
+
+Compile and Run
+
+Navigate to your working directory (e.g., C:/wilmix7).
+
+Use JShell to compile .java7 files. DotWeb5.0 will compile and execute them, producing .class and .jclass files.
+
+These files are used for rendering scrollable web pages (web applications).
+
+For best results, compile .java7 files using the Visual Studio Command Prompt.
+
+
+⚠️ Error Codes and Their Explanations
+
+
+
+
+📘 Unit 2: Program Structures in DotWeb5.0
+
+DotWeb5.0 introduces a unique programming model that differs from traditional Java. Below are the key syntax structures and examples to help you understand and implement DotWeb5.0 programs effectively.
+
+🧩 SYNTAX 1: Basic DotWeb5.0 Program Structure
+
+Filename: Filename.java7
+
+public class <classname> { 
+
+// Mandatory constructor with super() call
+
+ public <classname> () 
+
+{ super(); } 
+
+// Main method for DotWeb5.0 logic
+
+ public void main()
+
+ { } 
+
+}
+
+✅ Example: Query3.java7
+
+class Query3 
+
+{ public Query3() 
+
+{ super(); } 
+
+// Method to display HTML content 
+
+public void displayHtmlToWeb(String a){ 
+
+print("\n\n"); print("Welcome!" + a); print("\n\n"); 
+
+} 
+
+// DotWeb5.0 main method (not static) 
+
+public void main() 
+
+{ 
+
+displayHtmlToWeb(" to Everybody");
+
+ }
+
+ }
+
+🔍 Note: This structure resembles Java Servlets and is available only in the Enterprise Edition. The compiled class file is sealed as: "DotWeb5.0 (JAVA7.0) Compiler - Jemin Information Technology - JIT-777-WRIT-0003 Query3.class" This type of program is referred to as a DotWeb5.0 Servlet.
+
+
+🧩 SYNTAX 2: Package-Based Structure
+
+Filename: Filename.java7
+
+<JAVA>
+
+<USE> packages;
+
+<PACK> packagename
+
+{
+
+    <CLASS>  <classname>
+
+   {
+
+      public void main()
+
+      {
+
+        <! source  code !>
+
+      }
+
+   }
+
+}
+
+
+🧩 SYNTAX 3: JAVA7-Based Structure
+
+Filename: Filename.java7
+
+<JAVA7>
+
+<Access modifiers>  <CLASS> <classname>
+
+{
+
+ <MAIN> //  it  means it cannot  be  run   in   jdk1.8 compiler
+
+<%
+
+<!  OAKJAVA7 Logic  !>
+
+%>
+
+</JAVA7>
+
+
+🧱 DotWeb5.0 Program Structure Breakdown
+
+
+JAVA7.0  SYNTAX-1  Program  Structure(.java7)
+
+Declaration DotWeb5.0  Section  : 
+
+
+ public class  <classname>
+
+{
+
+//This constructor with super method is mandatory, which indicates it is a DotWeb5.0 
+
+//program and  class name and   constructor name should be  same
+
+public  <classname>() 
+
+{ 
+
+super();
+
+}
+
+Documentation  Section 
+
+// it means it will not support any java compiler, it is entirely different.
+
+Package  Statement;
+
+Import  Statement;
+
+DotWeb5.0 LOGIC  SECTION
+
+// DotWeb5.0  main method should have public void main  method  otherwise DotWeb5.0
+
+program  will not  compile....
+
+   public void main()
+
+{
+
+<! DotWeb5.0 Logic !>
+
+}
+
+CLOSE DotWeb5.0  LOGIC  SECTION   }
+
+LOGIC  DotWeb5.0  DATASTRUCTURE SECTION
+
+class  <CLASSNAME>
+
+{
+
+
+private <CLASSNAME>()
+
+	{
+
+		super();
+
+	}
+
+................
+
+................
+
+................
+
+
+CLOSE LOGIC DotWeb5.0 DATASTRUCTURE SECTION }
+
+
+ENDING  SECTION : 
+
+
+🔍 Explanation
+
+All  DotWeb5.0   should    start    DotWeb5.0  declaration section as
+
+
+public class  <classname>
+
+{
+
+//This constructor with super method is mandatory, which indicates it is a DotWeb5.0 program.
+
+The class name and  constructor  of  DotWeb5.0 program should be  same.
+
+
+public  <classname>() 
+
+{ 
+
+super();
+
+}   
+
+after that DotWeb5.0 LOGIC  SECTION should be
+
+   public void main()
+
+{
+
+<! DotWeb5.0 Logic !>
+
+}
+
+so <!DotWeb5.0 Logic>  may have print statements, for loop,
+
+Datastructure statements belong to  another class.
+
+But Logic  DotWeb5.0  DataStructure Section should be in this format
+
+class  <CLASSNAME>
+
+{
+
+
+private <CLASSNAME>()
+
+	{
+
+		super();
+
+	}
+
+and Close Logic DotWeb5.0 DataStructure section by using   curly braces which is "}".
+
+I hope  this  syntax  change  will be  easy  to  follow  and  to  do programming  
+
+in DotWeb5.0. I remove the  complexity of  the  DotWeb5.0  program syntax. So now
+
+this  type  of  DotWeb5.0 servlet  syntax  is  learnable.
+
+
+SYNTAX 2: Enterprise Edition Format
+
+Filename: Filename.java7
+
+DotWeb5.0  SYNTAX-2 Program Structure
+
+Beginning  Section  :  <JAVA>
+
+Documentation  Section 
+
+Package  Statement;
+
+<USE> Statement;
+
+<PACK> packagename
+
+LOGIC  SECTION
+
+    <CLASS>  <classname>
+
+   {
+
+      public void main()
+
+      {
+
+        <! source  code !>
+
+      }
+
+CLOSE  LOGIC  SECTION
+
+ENDING  SECTION : }
+
+
+🔍 Explanation
+
+DotWeb5.0  Ending  section  is   }  ;  Ending  your  DotWeb5.0  program
+
+Documentation  Section   means   you  can  include  description   
+
+with  comments.
+
+Package  statement  means   you   had  to  include  DotWeb5.0 program  in  Package  ....
+
+<USE>  statement  to  import  all  the  packages.
+
+Interface   statement   for    supporting   multiple  inheritance.
+
+Logic   section    for   writing   DotWeb5.0  logic  with   Class   followed  by main   method .
+
+after  writing logic   close    the  logic   section.
+
+
+🧾 SYNTAX 3: JAVA7 Format
+
+Filename: Filename.java7
+
+Beginning  Section  :  <JAVA7>
+
+Documentation  Section 
+
+Package  Statement;
+
+Import  Statement;
+
+LOGIC  SECTION
+
+<Access modifiers>  <CLASS> <classname>
+
+   {
+
+     <MAIN>
+
+      {
+
+        <! source  code !>
+
+      }
+
+CLOSE  LOGIC  SECTION
+
+ENDING  SECTION : </JAVA7>
+
+
+🔍 Explanation
+
+All  DotWeb5.0   should   start   with   <JAVA7> then after  that  followed  by <CLASS>  <classname>   
+
+But   <MAIN>  is   used   instead   for  
+
+ public  static void  main(String args[]) for  protection  from hackers.
+
+Logic   section    for   writing   DotWeb5.0  logic  with   Class   followed  by main   method .
+
+after  writing logic   close    the  logic   section. 
+
+ 
+
+
+🔢 Example: Print Numbers from 0 to 99
+
+Filename: display2.java7
+
+<JAVA7>
+
+public <CLASS>  display2
+
+{
+
+<MAIN>
+
+<%
+
+for (int i=0;i<100;i++)
+
+{
+
+<PRINTLINE>(""+i);
+
+}
+
+%>
+
+</JAVA7>
+
+
+🖨️ Output
+
+0 1 2 ... 99
+
+
+
+
+📘 DotWeb5.0 Major Program (Java7 Collections Example)
+
+
+Programs1.java7
+
+
+<JAVA>
+
+<USE> <WEB7>.IO; //<WEB7>-io packages
+
+<USE> CUTIL; //Web7 cutil packages
+
+<PACK> BoxApplication
+
+{
+
+   <CLASS> Box
+
+   {
+
+      private double length;   // Length of a box
+
+      private double breadth;  // Breadth of a box
+
+      private double height;   // Height of a box
+
+
+      public void setLength( double len )
+
+      <%
+
+         length = len;
+
+      }
+
+
+      public void setBreadth( double bre )
+
+      <%
+
+         breadth = bre;
+
+      }
+
+
+      public void setHeight( double hei )
+
+      <%
+
+         height = hei;
+
+      }
+
+
+      public double getVolume()
+
+      <%
+
+         return length * breadth * height;
+
+      }
+
+   }
+
+
+   <CLASS> Boxtester
+
+   {
+
+      public void main()
+
+      {
+
+         Box Box1 <NEW> Box();   // Declare Box1 of type Box
+
+         Box Box2 <NEW> Box();
+
+         double volume;
+
+
+         // Declare Box2 of type Box
+
+         // box 1 specification
+
+         Box1.setLength(6.0);
+
+         Box1.setBreadth(7.0);
+
+         Box1.setHeight(5.0);
+
+
+         // box 2 specification
+
+         Box2.setLength(12.0);
+
+         Box2.setBreadth(13.0);
+
+         Box2.setHeight(10.0);
+
+
+         // volume of box 1
+
+         volume = Box1.getVolume();
+
+         <PRINTLN>("Volume of Box1 :" +volume);
+
+
+         // volume of box 2
+
+         volume = Box2.getVolume();
+
+         // <PRINTLN>("Volume of Box2 : {0}", volume);
+
+
+         // Console.ReadKey();
+
+         CUTIL.ArrayList x <NEW> CUTIL.ArrayList();
+
+
+         // test size
+
+         <PRINTLN>("Initial size is " + x.size());
+
+
+         // test isEmpty
+
+         if (x.isEmpty())
+
+            <PRINTLN>("The list is empty");
+
+         else <PRINTLN>("The list is not empty");
+
+
+         // test put into  ArrayList
+
+         x.add(0, Java7Collection.QUERY()); // get previous data  from java7collection and put it into java7-arraylist at 0 location.
+
+         x.add(1, (6));
+
+         x.add(0, (1));
+
+         x.add(2, (4));
+
+         <PRINTLN>("List size is " + x.size());
+
+
+         // test toString
+
+         <PRINTLN>("The list is " + x);
+
+         String JAVA5 = "Java 5";
+
+         String JAVA6 = "Java 6";
+
+         String JAVA7 = "Java 7";
+
+         int  c=1;
+
+         switch (c) {
+
+             case 1:
+
+                 <PRINTLN>(JAVA5);
+
+                 break;
+
+             case 2:
+
+                 <PRINTLN>(JAVA6);
+
+                 break;
+
+             case 3:
+
+                 <PRINTLN>(JAVA7);
+
+                 break;
+
+         }
+
+         <TRY>
+
+         {
+
+            Java7Collection.InsertQUERY(x.ToString());// insert  arraylist  at  java7 collection memory
+
+            Java7Collection.QUERY(x.ToString(),"display23");// merge  the  output  display23.java7.exe output  with  arraylist
+
+         }
+
+         <CATCH> (<EXE> e) {}
+
+
+         // test indexOf
+
+         int index = x.indexOf((4));
+
+         if (index < 0)
+
+            <PRINTLN>("4 not found");
+
+         else <PRINTLN>("The index of 4 is " + index);
+
+
+         index = x.indexOf((3));
+
+         if (index < 0)
+
+            <PRINTLN>("3 not found");
+
+         else <PRINTLN>("The index of 3 is " + index);
+
+
+         // test get
+
+         <PRINTLN>("Element at 0 is " + x.get(0));
+
+         <PRINTLN>("Element at 3 is " + x.get(3));
+
+
+         // test remove
+
+         <PRINTLN>(x.remove(1) + " removed"); //arraylist data removed
+
+         <PRINTLN>("The list is " + x);
+
+         <PRINTLN>(x.remove(2) + " removed");// 6  is removed
+
+         <PRINTLN>("The list is " + x);
+
+
+         if (x.isEmpty())
+
+            <PRINTLN>("The list is empty");
+
+         else <PRINTLN>("The list is not empty");
+
+
+         <PRINTLN>("List size is " + x.size());
+
+      }
+
+   }
+
+}
+
+
+✨ Explanation 
+
+Used Standard OakJava7(OJ7) syntax.
+
+Organized code into Box and BoxTester classes.
+
+Used ArrayList properly with add, remove, indexOf, and get methods
+
+Used OakJava7 Collection for merging two output values
+
+Here we have used OakJava7 collection to insert arraylist at java7 collection memory. The statement 
+
+for this is given below....
+
+           Java7Collection.InsertQUERY(x.ToString());
+
+
+Here we have used OakJava7 collection to merge the output  display23.java7.exe output  with  arraylist.The statement for this is  given below....
+
+            Java7Collection.QUERY(x.ToString(),"display23");
+
+This is one of  Advanced  concept  in  OakJava7(JAVA7.0).
+
+The  given  output  indicates that  it  is merging  two DotWeb5.0 output  by using Java7collection.
+
+
+🖨️ Output
+
+
+Volume of Box1 :210
+
+Initial size is 0
+
+The list is empty
+
+List size is 4
+
+The list is [1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [2000], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6] 
+
+Java 5
+
+HELLO WORLD!  MY First DotWeb5.0 Program-display-program-1
+
+The index of 4 is 2
+
+3 not found
+
+Element at 0 is 1
+
+Element at 3 is 6
+
+[[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [[1, [2000], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]], 4, 6]] removed
+
+The list is [1, 4, 6]
+
+6 removed
+
+The list is [1, 4]
+
+The list is not empty
+
+List size is 2
+
+
+✨ UNIT‑3 : DotWeb5.0 Advanced Concepts
+
+
+(DotWeb5.0 util packages)
+
+📖 Introduction
+
+DotWeb5.0 Advanced Concepts were invented by Wilmix Jemin J.
+
+
+They are part of the DotWeb5.0 Programming Language, with file extension .web7.
+
+
+🪣 Bucket
+
+Purpose: Store key–value data and generate random numbers.
+Supports datatypes such as string, object, etc.
+
+Syntax:
+
+Bucket list = Bucket(); list.KeyAdd(); list.add(); list.RandomAdd(); list.Display(list);
+
+Advantages:
+
+Retrieve values by position
+
+Fast searching and insertion compared to other DTS
+
+Random indexing supported (duplicate values get unique random keys)
+
+Can store many values
+
+🔗 Extend
+
+Purpose: Provides multiple inheritance in (up to 100,000,000 classes).
+Behaves like a Bucket but contains a list of classes.
+
+Syntax:
+
+EXTEND <> list11 = EXTEND <> (STRING); list.KeyAdd(); list.add(); list.RandomAdd(); list.Display(list);
+
+Advantages:
+
+Add many values
+
+Indexing supported
+
+Lists class and object values
+
+Stateless
+
+🚦 Pipe
+
+Purpose: Maintains stateful behavior and supports data flow between classes.
+Can add constructor values from multiple classes and display them.
+
+Syntax:
+
+Pipe <> list11 = Pipe <> (STRING); list.KeyAdd(); list.add(); list.RandomAdd(); list.Display(list);
+
+👜 Bag
+
+Extension of: LinkedHashMap
+Performance: Faster than Dictionary
+
+Syntax:
+
+Bag object = new Bag(); object.put(key,value);
+
+Functions:
+
+getValues(key) → Get values for a key
+
+get(key,loc) → Get value at index
+
+containsValue(value) → Check if value exists
+
+put(key,value) → Add key–value pair
+
+remove(key,value) → Remove key–value pair
+
+🌳 TreeList
+
+Similar to Bucket but stores items in tree format.
+
+Syntax:
+
+TreeList list = new TreeList("BUCKETS"); list.KeyAdd(KEY); list.add(VALUE1); list.RandomAdd(RANDOMNO); list.DisplayO(list,0);
+
+🎭 Mask
+
+Extension of tree structure, supports left/right retrieval.
+
+Syntax:
+
+Mask m = new Mask(); m.add(multiple values); m.getR(loc); // right position m.getL(loc); // left position
+
+🏔 Heap
+
+Creates a balanced tree, inserts data, and displays via inorder traversal.
+
+Syntax:
+
+Heap hob = new Heap(); hob.add(datum); hob = new Heap(key,value1,value2);
+
+🪣 Bucktist
+
+Similar to Bucket but stores two values per key.
+
+Syntax:
+
+Bucktist l = new Bucktist(key,value1,value2);
+
+🏏 Wicket
+
+Stores multiple values with four values per key.
+
+Syntax:
+
+Wicket list12 = new Wicket(key,v1,v2,v3,v4); list12.Display(); list12.Display(list12,location);
+
+
+💻 Example Programs
+
+Example 1: Bag
+
+<WEB7>
+
+<PACK> MyP
+
+<%
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+        Bag  b <NEW> Bag();
+
+        b.PUT(1,34);
+
+        b.PUT(2,444);
+
+        <PRINTLN>(""+b);
+
+        }
+
+    }
+
+%>
+
+?>
+
+Example 2: CDOLLARARRAYS
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+ArrayList ar <NEW> ArrayList ();
+
+for (int i=0;i<=100;i++)
+
+    ar.add(i,i);
+
+
+<CDOLLARARRAYS> list1 <NEW>  <CDOLLARARRAYS>("ANIMALS ");
+
+list1.add("1 horse");
+
+list1.add("2 pig");
+
+list1.add("3 cow");
+
+list1.add("4 goat");
+
+list1.add("5 chicken");
+
+list1.add("6 ostrich");
+
+list1.add(ar.StringConvert());
+
+
+for (int i=0;i<list1.size();i++)
+
+    <PRINTLN>(""+list1.get(i));
+
+        }
+
+    }
+
+?>
+
+
+Example 3: Bootloader
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK>  MYOS
+
+{
+
+    <CLASS> MYOs
+
+    {
+
+        public void main(){
+
+            <PRINTLN>("HelloWorld  for  booting  MYOS");
+
+        }
+
+    }
+
+?>
+
+Example 4: Pointers
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            <Str>  s="dsdds";
+
+            {*} l Pointers (s);
+
+            l.add(s);
+
+
+            for (int i = 0; i NOT= l.size(); i = i + 1)
+
+            {
+
+                <OBJECT> obj=l.GETKEY(i);
+
+                <PRINTLN>(obj);
+
+            }
+
+        }
+
+    }
+
+?>
+
+Example 5: Dictionary
+
+<WEB7>
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            Dictionary<string, string> openWith  <NEW>  Dictionary<string, string>();
+
+            openWith.Add("txt", "notepad.exe");
+
+            openWith.Add("bmp", "paint.exe");
+
+            openWith.Add("dib", "paint.exe");
+
+            openWith.Add("rtf", "wordpad.exe");
+
+        }
+
+    }
+
+?>
+
+Example 6: Extend
+
+<WEB7>
+
+<USE> CUTIL;
+
+<IMPORT>
+
+<PACK> MyP
+
+<%
+
+    <CLASS> Programs
+
+    <%
+
+        public void main()
+
+        {
+
+            EXTEND list <NEW> EXTEND("BUCKETS");
+
+            list.KeyAdd("1101");
+
+            list.add("jemin");
+
+            list.RandomAdd();
+
+            list.Display(list);
+
+            <PRINTLN>(""+list.DisplayO(list,1));
+
+        }
+
+    %>
+
+?>
+
+Example 7: Heap
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            Heap root <NEW> Heap("wilmix");
+
+            for (int i=0;i<=10;i=i+1)
+
+                root.add("item " + i);
+
+
+            <PRINTLN>(root.size());
+
+            root.printTree();
+
+        }
+
+    }
+
+}
+
+?>
+
+
+Example 8: LArray
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            LArray root <NEW> LArray("root");
+
+            ArrayList ar <NEW> ArrayList();
+
+            for (int i=0;i<=1000;i++)
+
+                ar.add(i,i);
+
+
+            root.add("wilmix");
+
+            root.add("jemin");
+
+            root.add("shalom");
+
+            root.add("1010");
+
+            root.add("101");
+
+            root.add("201");
+
+            root.add(ar.StringConvert());
+
+            root.add("100000000");
+
+
+            root.printTree();
+
+        }
+
+    }
+
+}
+
+?>
+
+Example 9: Pipe
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            Pipe list <NEW> Pipe("BUCKETS");
+
+            list.KeyAdd("1101");
+
+            list.add("jemin");
+
+            list.RandomAdd();
+
+            list.Display(list);
+
+            <PRINTLN>(""+list.DisplayO(list,1));
+
+        }
+
+    }
+
+}
+
+?>
+
+Example 10: TreeList
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            TreeList list <NEW> TreeList("BUCKETS");
+
+            list.KeyAdd("1101");
+
+            list.add("jemin");
+
+            list.RandomAdd("1111");
+
+
+            TreeList list2 <NEW> TreeList("BUCKETS");
+
+            list2.KeyAdd("1102");
+
+            list2.add("rahul");
+
+            list2.RandomAdd("1112");
+
+
+            <PRINTLN>("DATA="+list.DisplayO(list,0));
+
+            <PRINTLN>("DATA="+list2.DisplayO(list2,0));
+
+        }
+
+    }
+
+}
+
+?>
+
+🔹 Example‑11 : MASK
+
+Purpose: Demonstrates the use of the MASK structure to add values and print a tree.
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> My
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            MASK root <NEW> MASK("wilmix");
+
+            for (int i = 0; i NOT= 10; i = i + 1)
+
+            {
+
+                root.add("item " + i);
+
+            }
+
+
+            root <NEW> MASK("root1",1211211,54441);
+
+            root <NEW> MASK("root2",121121,5444);
+
+            root <NEW> MASK("root5",99121888,"5");
+
+            root <NEW> MASK("root3",12112,544);
+
+            root <NEW> MASK("root4",1211,54);
+
+            root <NEW> MASK("root51",121,5);
+
+
+            root.printTree();
+
+        }
+
+    }
+
+%>
+
+?>
+
+🔹 Example‑12 : WICKET
+
+Purpose: Shows how to store multiple values per key using Wicket.
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyPo
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            Wicket list12;
+
+
+            list12 <NEW> Wicket(1000,10002,43433,4343,5555451);
+
+            list12 <NEW> Wicket(10001,100021,434331,4343,5555452);
+
+            list12 <NEW> Wicket(10002,100022,434332,4343,5555453);
+
+            list12 <NEW> Wicket(10003,100023,434333,4343,5555454);
+
+            list12 <NEW> Wicket(10004,100024,434334,4343,5555455);
+
+            list12 <NEW> Wicket(10005,100025,434335,4343,5555456);
+
+
+            list12.Display(list12);
+
+            <PRINTLN>("DATA="+list12.DisplayO(list12,0));
+
+        }
+
+    }
+
+%>
+
+?>
+
+🔹 Example‑13 : STRUCTURE
+
+Purpose: Demonstrates pointers and the STRUCTURE keyword to retrieve and display values.
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyPoi
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            <Str> s="dsdds";
+
+            {*} l Pointers(s);
+
+            l.add(s);
+
+
+            for (int i = 0; i NOT= l.size(); i = i + 1)
+
+            {
+
+                <OBJECT> obj=l.GETKEY(i);
+
+                <PRINTLN>(obj);
+
+            }
+
+
+            <STRUCTURE> list <NEW> <STRUCTURE>(l.GETKEY(0));
+
+            for (int i11 = 0; i11 NOT= list.size(); i11 = i11 + 1)
+
+            {
+
+                <OBJECT> el=list.ret(i11);
+
+                <PRINTLN>("SNO= "+el);
+
+            }
+
+        }
+
+    }
+
+%>
+
+?>
+
+🔹 Example‑14 : BUCKETIST
+
+Purpose: Illustrates the Bucketist structure, which allows storing two values per key.
+
+<WEB7>
+
+<USE> CUTIL;
+
+<PACK> MyP
+
+{
+
+    <CLASS> Programs
+
+    {
+
+        public void main()
+
+        {
+
+            Bucketist bp <NEW> Bucketist("wilmix");
+
+            bp <NEW> Bucketist(1,222,434);
+
+            bp <NEW> Bucketist(1,222,434);
+
+
+            bp.Display(bp);
+
+            <PRINTLN>("DATA="+bp.DisplayO(bp,1));
+
+        }
+
+    }
+
+%>
+
+?>
+
+
+🌟 Final Notes
+
+DotWeb5.0 Advanced Concepts extend the language with powerful data structures.
+
+
+🌟 UNIT‑4 : DotWeb5.0 Advanced OOPS
+
+📖 Introduction
+
+DotWeb5.0 Advanced OOPS extends the language with powerful features such as:
+
+Operator Overloading
+
+Friend Functions
+
+JDk‑Java OOPS
+
+DotWeb5.0 OOPS
+
+ However, many Java developers are not aware of the advanced concepts introduced in DotWeb5.0.
+
+📂 DotWeb5.0 FILEAPIs
+
+DotWeb5.0 provides a rich set of File APIs for handling input/output operations:
+
+JFile.display(String f1) → Displays file attributes
+
+JFileInputStream.ReadBytes(String f1, int p) → Reads bytes from a file
+
+JFileOutputStream.Write(String data, String f1, String f2, String f3, int r1, int r2) → Writes data bytes to a file
+
+JFileReader.Read(String f1, int d) → Reads data from a file
+
+JFileWriter.Write(String f1, char data[], String f2, String f3, String app, int r1, int r2) → Writes character data to a file
+
+JInputStreamReader.ReadLN() → Reads a character from a file
+
+JPrinter.call() → Enables printer functionality
+
+JPrintWriter.display(String s1) → Writes a string
+
+JSerialization.Serialize(String a, String s1, String s2) → Serializes and deserializes a string
+
+JStreamTokenizer.Split(String f1) → Splits a string into tokens
+
+
+💻 Program‑1 : oakweb1.java7
+
+
+<JAVA7>
+
+<CLASS> oakweb1
+
+<%
+
+ void  display() 
+
+<%
+
+<PRINTLINE>("wilmix is going");
+
+%>
+
+%>
+
+
+<CLASS> oakweb2
+
+
+<%
+
+
+ <MAIN> 
+
+
+//  it  means it cannot  be  run   in   jdk1.8 compiler
+
+
+<%
+
+
+oakweb1 o  <NEW>  oakweb1();
+
+
+<PRINTLINE>("Wilmix is going");
+
+
+%>
+
+
+</JAVA7>
+
+
+
+// Note: This program cannot be run in JDK 1.8 compiler 
+
+⚙️ Compilation & Execution
+
+To compile and run the program, use:
+
+CoreJavac7 oakjava1.java7
+
+🖥️ Output
+
+Wilmix is going
+
+==============================================================================================================
+
+🌟 UNIT‑5 : DotWeb5.0 Programming Exercises
+
+🌐 Dotweb5.0 Programming Exercises
+Welcome to the Dotweb5.0 (OJ7) practice set. 
+
+
+1️⃣ Hello World Program
+📘 Description: Print "HelloWorld" in the console.
+
+💻 Code
+
+// Basic Program for HelloWorld
+
+<WEB>
+
+<PACK> example
+
+{
+
+    <CLASS> example1
+
+    {
+
+        public void main()
+
+        {
+
+            string input = Console.ReadLine();
+
+            <J7PRINT>(input);
+
+        }
+
+    }
+
+}
+
+
+🎯 Input / Output
+
+Input
+
+HelloWorld
+
+
+Output
+
+HelloWorld
+
+
+2️⃣ Age Category Program
+📘 Description: Use if–else to check age and display category.
+
+💻 Code
+
+<WEB>
+
+<PACK> example
+
+{
+
+    <CLASS> example1
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter your name :");
+
+            string name = Console.ReadLine();
+
+            <PRINTLN>("");
+
+
+            <J7PRINT>("Enter your Age :");
+
+            int age = int.Parse(Console.ReadLine());
+
+            <PRINTLN>("");
+
+
+            if ((age >= 0) && (age <= 9))
+
+                <PRINTLN>("Child is babby");
+
+            else if ((age >= 10) && (age <= 19))
+
+                <PRINTLN>("Child is boy");
+
+            else if ((age >= 20) && (age <= 29))
+
+                <PRINTLN>("Young Boy");
+
+            else if ((age >= 30) && (age <= 39))
+
+                <PRINTLN>("Man");
+
+            else if ((age >= 40) && (age <= 59))
+
+                <PRINTLN>("Medium Man");
+
+            else if (age >= 60)
+
+                <PRINTLN>("Old Man");
+
+        }
+
+    }
+
+}
+
+
+🎯 Input / Output
+
+Input
+
+Enter your name : Daniel
+
+Enter your Age : 62
+
+
+Output
+
+Old Man
+
+
+
+3️⃣ Positive or Negative Number
+📘 Description: Check whether a number is positive or negative.
+
+💻 Code
+
+// Check if the given number is positive or negative
+
+<WEB>
+
+<PACK> testno
+
+{
+
+    <CLASS> testno
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter the Number :");
+
+            int no = int.Parse(Console.ReadLine());
+
+            <PRINTLN>("");
+
+
+            if (no < 0)
+
+                <PRINTLN>("The given number is Negative");
+
+            else if (no >= 0)
+
+                <PRINTLN>("The given number is Positive");
+
+        }
+
+    }
+
+}
+
+
+🎯 Input / Output
+
+Input
+
+Enter the Number : -1
+
+
+Output
+
+The given number is Negative
+
+
+
+✨ Practice Exercises (with Solutions)
+a) Factorial Program
+💻 Code
+
+<WEB>
+
+<PACK> mathpack
+
+{
+
+    <CLASS> factorial
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter the Number :");
+
+            int n = int.Parse(Console.ReadLine());
+
+            int fact = 1;
+
+
+            for (int i = 1; i <= n; i++)
+
+            {
+
+                fact = fact * i;
+
+            }
+
+
+            <PRINTLN>("Factorial of " + n + " is : " + fact);
+
+        }
+
+    }
+
+}
+
+
+🎯 Input / Output
+
+Input
+
+Enter the Number : 5
+
+
+Output
+
+Factorial of 5 is : 120
+
+
+
+b) String with Number
+💻 Code
+
+<WEB>
+
+<PACK> stringpack
+
+{
+
+    <CLASS> stringnum
+
+    {
+
+        public void main()
+
+        {
+
+            string text = "Weldone";
+
+            int number = 1345;
+
+
+            <PRINTLN>(text + " " + number);
+
+        }
+
+    }
+
+}
+
+
+🎯 Output
+
+Weldone 1345
+
+c) Odd or Even Program
+💻 Code
+
+<WEB>
+
+<PACK> numberpack
+
+{
+
+    <CLASS> oddeven
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter the Number :");
+
+            int no = int.Parse(Console.ReadLine());
+
+            if (no % 2 == 0)
+
+                <PRINTLN>("The given number is EVEN");
+
+            else
+
+                <PRINTLN>("The given number is ODD");
+
+        }
+
+    }
+
+}
+
+
+🎯 Input / Output
+
+Input
+
+Enter the Number : 7
+
+Output
+
+The given number is ODD
+
+
+============================================================================================
+
+🌐 Dotweb5.0 Control Structure Examples
+🔄 For Loop – Prime Number Check
+Program (Dotweb5.0 style):
+
+<WEB>
+
+<PACK> testprime
+
+{
+
+    <CLASS> prime
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter the Number :");
+
+            int num = int.Parse(Console.ReadLine());
+
+
+            bool isPrime = true;
+
+
+            for (int i = 2; i <= num / 2; i++) {
+
+                if (num % i == 0) {
+
+                    isPrime = false;
+
+                    break;
+
+                }
+
+            }
+
+
+            if (isPrime && num > 1) {
+
+                <PRINTLN>(num + " is a Prime Number");
+
+            } else {
+
+                <PRINTLN>(num + " is NOT a Prime Number");
+
+            }
+
+        }
+
+    }
+
+}
+
+
+Sample Output:
+
+Enter the Number : 7
+
+7 is a Prime Number
+
+
+Enter the Number : 10
+
+10 is NOT a Prime Number
+
+
+🌈 For-Each Loop – Rainbow Colours
+Program:
+
+<WEB>
+
+<PACK> rainbowcolors
+
+{
+
+    <CLASS> vibgyor
+
+    {
+
+        public void main()
+
+        {
+
+            string [] colours = {"Red","Orange","Yellow","Green","Blue","Indigo","Violet"};
+
+
+            foreach (string colour in colours) {
+
+                <PRINTLN>("Colour: " + colour);
+
+            }
+
+        }
+
+    }
+
+}
+
+
+Sample Output:
+
+Colour: Red
+
+Colour: Orange
+
+Colour: Yellow
+
+Colour: Green
+
+Colour: Blue
+
+Colour: Indigo
+
+Colour: Violet
+
+
+
+♾️ While Loop – Simple Counter
+Program:
+
+<WEB>
+
+<PACK> example
+
+{
+
+    <CLASS> Counter
+
+    {
+
+        public void main()
+
+        {
+
+            int count = 1;
+
+
+            while (count <= 5) {
+
+                <PRINTLN>("Count is: " + count);
+
+                count++;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+Sample Output:
+
+Count is: 1
+
+Count is: 2
+
+Count is: 3
+
+Count is: 4
+
+Count is: 5
+
+
+
+🧑‍💻 Switch Case – Employee Roles by EmpCode
+Program:
+
+<WEB>
+
+<PACK> employees
+
+{
+
+    <CLASS> empcodes
+
+    {
+
+        public void main()
+
+        {
+
+            <J7PRINT>("Enter the Employee code :");
+
+            int empcode = int.Parse(Console.ReadLine());
+
+
+            switch (empcode) {
+
+                case 1:
+
+                    <PRINTLN>("Junior Software Engineer");
+
+                    break;
+
+                case 2:
+
+                    <PRINTLN>("Senior Software Engineer");
+
+                    break;
+
+                case 3:
+
+                    <PRINTLN>("Developer Lead");
+
+                    break;
+
+                case 4:
+
+                    <PRINTLN>("Tech Lead");
+
+                    break;
+
+                case 5:
+
+                    <PRINTLN>("Team Lead");
+
+                    break;
+
+                case 6:
+
+                    <PRINTLN>("Software Architect");
+
+                    break;
+
+                case 7:
+
+                    <PRINTLN>("Project Manager");
+
+                    break;
+
+                default:
+
+                    <PRINTLN>("Invalid Employee Code");
+
+                       break;
+
+            }
+
+        }
+
+    }
+
+}
+
+
+Sample Output:
+
+Enter the Employee code : 3
+
+Developer Lead
+
+
+Enter the Employee code : 8
+
+Invalid Employee Code
+
+
+
+✨ Summary:
+
+
+These examples demonstrate the four main control structures in Dotweb5.0:
+
+For Loop → Prime number check
+
+For-Each Loop → Rainbow colours
+
+While Loop → Counter
+
+Switch Case → Employee role lookup
+
+================================================================================================
+
+🧑‍💻 Dotweb5.0 Structures Type-1
+
+
+## 📌 what is  Dotweb5.0 Structure ?
+
+
+- Structures are declared using the **`struct`** keyword.  
+
+- They are similar to classes but are **stored on the stack** (value type).  
+
+- A structure can include:  
+
+  - **Fields**  
+
+  - **Methods**  
+
+  - **Properties**  
+
+  - **Constructors**  
+
+- Unlike classes, **structs cannot inherit** from another struct or class. However, they **can implement interfaces**.  
+
+- Best suited for **small data structures** that represent simple values such as coordinates, colors, or records.  
+
+
+## 🖥️ Example: DotWeb5.0 Structure
+
+
+Webstructures.web
+
+
+<WEB>
+
+<PACK> geometry
+
+{
+
+    <STRUCT> Point
+
+    {
+
+        public int X;
+
+        public int Y;
+
+
+        // Constructor
+
+        public Point(int x, int y)
+
+        {
+
+            X = x;
+
+            Y = y;
+
+        }
+
+
+        // Method: distance from origin
+
+        public double DistanceFromOrigin()
+
+        {
+
+            return Math.Sqrt((X * X) + (Y * Y));
+
+        }
+
+
+        // Static method: add two points
+
+        public Shared Point Add(Point a, Point b)
+
+        {
+
+            Point result <NEW> Point(0,0);
+
+            result.X = a.X + b.X;
+
+            result.Y = a.Y + b.Y;
+
+            return result;
+
+        }
+
+
+        public void Print()
+
+        {
+
+            <PRINTLN>("(" + X + "," + Y + ")");
+
+        }
+
+    }
+
+
+    <STRUCT> Rectangle
+
+    {
+
+        public Point TopLeft;
+
+        public int Width;
+
+        public int Height;
+
+
+        public Rectangle(Point topLeft, int width, int height)
+
+        {
+
+            TopLeft = topLeft;
+
+            Width = width;
+
+            Height = height;
+
+        }
+
+
+        public int Area()
+
+        {
+
+            return Width * Height;
+
+        }
+
+
+        public bool Contains(Point p)
+
+        {
+
+            return (p.X >= TopLeft.X) &&
+
+                   (p.Y >= TopLeft.Y) &&
+
+                   (p.X <= TopLeft.X + Width) &&
+
+                   (p.Y <= TopLeft.Y + Height);
+
+        }
+
+
+        public void Print()
+
+        {
+
+            <PRINTLN>("Rect @ (" + TopLeft.X + "," + TopLeft.Y +
+
+                      ") w=" + Width + " h=" + Height);
+
+        }
+
+    }
+
+
+    <CLASS> Program
+
+    {
+
+        public void main()
+
+        {
+
+            Point p1 <NEW> Point(3,4);
+
+            Point p2 <NEW> Point(5,6);
+
+            Point p3 = Point.Add(p1,p2);
+
+
+            p1.Print();
+
+            <PRINTLN>("Dist=" + p1.DistanceFromOrigin());
+
+            p2.Print();
+
+            <PRINTLN>("Dist=" + p2.DistanceFromOrigin());
+
+            p3.Print();
+
+
+            Rectangle rect <NEW> Rectangle(p1,10,8);
+
+            rect.Print();
+
+            <PRINTLN>("Area=" + rect.Area());
+
+            <PRINTLN>("Contains p1? " + rect.Contains(p1));
+
+            <PRINTLN>("Contains (15,2)? " + rect.Contains(new Point(15,2)));
+
+        }
+
+    }
+
+}
+
+}
+
+
+✨ Output (Console-like)
+
+
+Point p1: (3,4)
+
+Distance from origin: 5
+
+Point p2: (5,6)
+
+Distance from origin: 7.81024967590665
+
+Point p3 (p1 + p2): (8,10)
+
+Rectangle: Rect @ (3,4) w=10 h=8
+
+Area: 80
+
+Contains p1? True
+
+Contains (15,2)? False
+
+
+## 🧩 What the Program Does
+
+Your program defines **two structures** (`Point` and `Rectangle`) and a **main class** (`Program`) that demonstrates how they work.
+
+
+### 1. **Point Structure**
+
+- **Fields:** `X` and `Y` (represent coordinates).  
+
+- **Constructor:** Initializes a point with given `x` and `y` values.  
+
+- **Method:** `DistanceFromOrigin()` calculates how far the point is from `(0,0)` using the distance formula.  
+
+- **Static Method:** `Add(Point a, Point b)` creates a new point by adding the coordinates of two points.  
+
+- **Print Method:** Displays the point in `(X,Y)` format.
+
+
+👉 This structure models a simple 2D point.
+
+
+---
+
+
+### 2. **Rectangle Structure**
+
+- **Fields:** `TopLeft` (a `Point`), `Width`, and `Height`.  
+
+- **Constructor:** Initializes a rectangle with position and size.  
+
+- **Method:** `Area()` calculates the rectangle’s area.  
+
+- **Method:** `Contains(Point p)` checks if a given point lies inside the rectangle.  
+
+- **Print Method:** Displays rectangle details (position, width, height).
+
+
+👉 This structure models a rectangle in 2D space.
+
+
+---
+
+
+### 3. **Program Class**
+
+- The `main()` method demonstrates usage:
+
+  - Creates points (`p1`, `p2`, `p3`).  
+
+  - Prints their coordinates and distances from origin.  
+
+  - Creates a rectangle and prints its details.  
+
+  - Checks if certain points are inside the rectangle.  
+
+
+🔑 Highlights
+
+p1 and p2 are individual points with their distances calculated.
+
+p3 is the sum of p1 and p2.
+
+The rectangle is defined at (3,4) with width 10 and height 8.
+
+The program checks whether points lie inside the rectangle.
+
+
+
+## ✨ Key Takeaways
+
+- **DotWeb5.0 structures** are similar to C# structs: lightweight, stack-based, and good for simple data models.  
+
+- The program shows **object creation (`<NEW>`), printing (`<PRINTLN>`), and methods** in action.  
+
+- It demonstrates **encapsulation**: grouping related data (coordinates, rectangle dimensions) with behaviors (distance, area, contains).  
+
+
+
+## ✨ Why Use Structures?
+
+
+- **Logical organization**: Keep related data together instead of scattering variables.  
+
+- **Encapsulation**: Bundle information into a single unit for clarity.  
+
+- **Readability & maintainability**: Code becomes easier to understand and manage.  
+
+- **Efficiency**: Ideal for lightweight data models that don’t require inheritance.  
+
+
+Note:
+Dotweb5.0 contains Advanced Structures, which are better than Structure Type‑1.
+
+✨ Dotweb 5.0 – J7Structure Type-2 Example
+📌 Program Code
+dotwebwithStructure.web
+
+<WEB>
+
+<PACK> dotwebsample
+
+{
+
+    <CLASS> example1
+
+    {
+
+        public void main()
+
+        {
+
+            <PRINTLN>("*************************************************************************");
+
+            <PRINTLN>("J7Structure in Dotweb 5.0 is powerful, and it can store more records than any other structure.");
+
+            <PRINTLN>("J7Structure in Dotweb 5.0");
+
+
+            // Create a Structure named 'liste'
+
+            CLIB.Structure liste <NEW> CLIB.Structure("Strutdatas");
+
+
+            // Add 10 data elements to the structure
+
+            for (int i11 = 0; i11 < 10; i11 = i11 + 1)
+
+            {
+
+                liste.add("data" + i11);
+
+            }
+
+
+            // Retrieve and print all elements from the structure
+
+            for (int i11 = 0; i11 < liste.size(); i11 = i11 + 1)
+
+            {
+
+                Object el = liste.ret(i11);
+
+                <PRINTLN>("SNO = " + el);
+
+            }
+
+
+            // Remove the 5th element
+
+            liste.Remove(5);
+
+            <PRINTLN>(liste);
+
+
+            // Remove all elements
+
+            liste = CLIB.Structure.RemoveAll(liste);
+
+            <PRINTLN>(liste);
+
+
+            // Check if the structure is empty
+
+            <PRINTLN>(CLIB.Structure.isEmpty(liste));
+
+        }
+
+    }
+
+}
+
+
+
+📖 Explanation
+J7Structure in Dotweb 5.0 is a powerful data structure capable of storing more records than traditional structures.
+
+A structure in Dotweb 5.0 is created using the following syntax:
+
+CLIB.Structure structobj <NEW> CLIB.Structure(initialValue);
+
+
+
+🖥️ Program Output
+*************************************************************************
+
+J7Structure in Dotweb 5.0 is powerful, and it can store more records than any other structure.
+
+J7Structure in Dotweb 5.0
+
+SNO = Strutdatas
+
+SNO = data0
+
+SNO = data1
+
+SNO = data2
+
+SNO = data3
+
+SNO = data4
+
+SNO = data5
+
+SNO = data6
+
+SNO = data7
+
+SNO = data8
+
+SNO = data9
+
+CLIB.Structure@189441b
+
+True
+
+
+
+🌟 Key Highlights
+✅ Initialization: A structure is created with an initial value.
+
+✅ Data Insertion: Multiple records can be added dynamically.
+
+✅ Data Retrieval: Elements can be accessed using index-based retrieval.
+
+✅ Modification: Specific elements can be removed.
+
+✅ Cleanup: All elements can be cleared at once.
+
+✅ Validation: The structure provides a method to check if it is empty.
+
+
+Note:  For DOTWEB5.0 Programming Language  ENLIGHT IDE  is used , it is  beautiful , easy  to  use  developed  by  Wilmix jemin J.
+
+You can  see the  screenshot for  the  J7Structure for  your  reference...
+
+
+
+
+Heap Data Structure
+
+Heap data structures play an important role in securing data. 
+
+Heap data structures display values in a tree format.
+
+Syntax for Heap Data Structure
+
+CLIB.Heap = new CLIB.Heap("Heap"); .add(data);
+
+
+Example
+
+Heapsample.web
+
+<WEB>
+
+<PACK> Javadtspart5
+
+{
+
+    <CLASS> J7Heap
+
+
+    {
+
+      public void main() {
+
+        
+
+      <PRINTLN>("HEAP  in  Java7.0");
+
+      <PRINTLN>("=================="); 
+
+      CLIB.Heap h <NEW> CLIB.Heap("Heap");
+
+      CUTIL.ArrayList ar1 <NEW> CUTIL.ArrayList();
+
+      for (int i=0;i<10;i++)
+
+          ar1.add(i,i+3);
+
+      h.add("wilmix1");
+
+      h.add("wilmix2");
+
+      h.add("wilmix3");
+
+      h.add("wilmix4");
+
+      h.add("wilmix5");
+
+      h.add(ar1);
+
+      CUTIL.ArrayList ar=h.get();
+
+      <PRINTLN>( h);
+
+      <PRINTLN>( ar);
+
+}
+
+}
+
+}
+
+
+Explanation
+
+CLIB.Heap h = new CLIB.Heap("Heap"); h.add("wilmix1"); h.add("wilmix2"); h.add("wilmix3"); h.add("wilmix4"); h.add("wilmix5");
+
+Here we initialize the heap with the name "Heap".
+We then add the values wilmix1, wilmix2, wilmix3, wilmix4, wilmix5 to the heap.
+
+When we print the heap object h, the original values are not displayed.
+Instead, the output shows something like:
+
+CLIB.Heap@189441b
+
+To convert the heap values into a readable format, we use CUTIL.ArrayList:
+
+CUTIL.ArrayList ar = h.get();
+
+Using Dotweb3.0 / OakJava7 ArrayList
+
+CUTIL.ArrayList ar1 = new CUTIL.ArrayList(); 
+
+for (int i = 0; i < 10; i++)
+
+ { 
+
+ar1.add(i, i + 3); 
+
+}
+
+When you add this ArrayList to the heap:
+
+h.add(ar1);
+
+and print the heap:
+
+<PRINTLN>(h);
+
+The output will still look like:
+
+CLIB.Heap@189441b
+
+But when you call h.get(), the output is:
+
+[[3, 4, 5, 6, 7, 8, 9, 10, 11, 12], wilmix5, wilmix4, wilmix3, wilmix2, wilmix1]
+
+Final Combined Output
+
+HEAP in Java 7.0 
+
+================== 
+
+CLIB.Heap@189441b 
+
+[[3, 4, 5, 6, 7, 8, 9, 10, 11, 12], wilmix5, wilmix4, wilmix3, wilmix2, wilmix1]
+
+Notes
+
+You must include the J7LIB.dll file in the project properties.
+
+This process generates an obfuscated file format (Heapsample.jclass) that cannot be reverse engineered or converted back to the real source code of Dotweb5.0 or OakJava7.
+
+The advantage is that if you already know C# or Java, learning this system is straightforward. That is why Dotweb5.0 / OakJava7 (Java 7.0) is considered more secure than other programming languages.
+
+
+======================================================================================================
+
+🖨️ Output
+
+
+
+LinkedList
+
+
+📖 Definition
+
+A linked list is a linear data structure in which elements, called nodes, are connected using pointers. Each node contains two parts:
+
+• 	Data: the actual value stored.
+
+• 	Reference (or pointer): a link to the next node in the sequence.
+
+Unlike arrays, linked lists do not store elements in contiguous memory locations. Instead, nodes are scattered in memory and connected through references.
+
+
+🔑 Key Characteristics
+
+• 	Dynamic size: Can grow or shrink at runtime without reallocating memory.
+
+• 	Efficient insertion/deletion: Adding or removing nodes is faster compared to arrays, especially in the middle of the list.
+
+• 	Sequential access: Elements must be traversed one by one; random access is not possible.
+
+
+I believe everyone is familiar with the concept of a linked list. It is important to understand the fundamentals of this data structure and how to implement it using the modern language Dotweb5.0.
+
+
+LinkedSample.web
+
+
+<WEB>
+
+
+<PACK> Dotweb5Oj7dts
+
+{
+
+    <CLASS> LinkedList
+
+
+    {
+
+      public void main() {
+
+        
+
+      <PRINTLN>("===============================");    
+
+
+    
+
+
+ <PRINTLN>("LinkedList  in  Dotweb5.0 / Java7.0");
+
+
+ CLIB.LinkedList  ll = new CLIB.LinkedList();
+
+
+        ll.add("1011L");
+
+        ll.add("1013L");
+
+        ll.addFirst("10L");
+
+        ll.addLast("20L");
+
+        ll.addLast("30L");
+
+        ll.addAtPosition(1, "15L"); // Insert 15 at index 1
+
+
+        <PRINTLN>("List after additions:");
+
+        ll.display();
+
+        ll.removeFirst();//remove Ist element
+
+
+        // remove() method will remove 
+
+        // the head of the LinkedList
+
+        ll.remove(); 
+
+
+      <PRINTLN>("After removing first:");
+
+        ll.display(); 
+
+
+        ll.removeLast(); // Remove the Last element
+
+        <PRINTLN>("After removing last:");
+
+        ll.display();
+
+
+
+<PRINTLN>("===============================");   
+
+
+
+
+}
+
+
+
+}
+
+
+}
+
+
+🖥️ Program Output
+===============================
+
+LinkedList  in  Dotweb5.0 / Java7.0
+
+List after additions:
+
+10L -> 15L -> 1013L -> 1011L -> 20L -> 30L -> null
+
+After removing firstElement:
+
+1013L -> 1011L -> 20L -> 30L -> null
+
+After removing lastElement:
+
+1013L -> 1011L -> 20L -> null
+
+===============================
+
+===========================================================================================
+
+Bag Data Structure
+
+
+The Bag Data Structure is used to create a hierarchical tree-like structure.
+
+For example, Peter is working as a software engineer at Company ABC. From his CEO, S. Andrew, down to Peter, there are 10 lead members in the hierarchy.
+
+To represent such a hierarchy in a tree-like format, you can use the Bag Data Structure. While a traditional tree data structure can be complex, the Bag Data Structure provides a simpler way to achieve the same result.
+
+
+Example
+
+<WEB>
+
+<PACK> Javadtspart5
+
+{
+
+    <CLASS> J7Bag
+
+
+    {
+
+
+public void main()  {
+
+        
+
+<PRINTLN>("Bag  in  Java7.0 / Dotweb5.0");
+
+
+Bag  tree <NEW> Bag();
+
+ Bag  Member <NEW> Bag();
+
+
+Member.PUT("A","CLASS5");
+
+Member.PUT("B","CLASS5");
+
+Member.PUT("C","CLASS5");
+
+Member.PUT("D","CLASS5");
+
+Member.PUT("CLASS6","CLASS6");
+
+Bag  slibings <NEW> Bag();
+
+slibings.PUT("A","s1");
+
+slibings.PUT("A","s2");
+
+slibings.PUT("B","s11");
+
+slibings.PUT("B","s21");
+
+slibings.PUT("C","s12");
+
+slibings.PUT("C","s22");
+
+Bag  activity <NEW> Bag();
+
+activity.PUT("s1","cricket");
+
+activity.PUT("s2","read");
+
+activity.PUT("s21","swim");
+
+activity.PUT("s12","swim");
+
+tree.PUT(1,Member);
+
+tree.PUT(2,slibings);
+
+tree.PUT(3,activity);
+
+activity.remove("s1","cricket");
+
+tree.remove(3,activity);
+
+tree.PUT(3,activity);
+
+
+<PRINTLN>("output="+tree.containsValue(Member));
+
+<PRINTLN>("outputTree="+tree);
+
+<PRINTLN>("===============================");   
+
+}
+
+}
+
+}
+
+
+Explanation
+
+Root Creation
+
+ Bag tree Bag();
+
+This creates the root of the tree.
+
+Child Members
+
+Bag Member Bag(); Member.PUT("A","CLASS5"); Member.PUT("B","CLASS5"); Member.PUT("C","CLASS5"); Member.PUT("D","CLASS5"); Member.PUT("CLASS6","CLASS6"); Here, A, B, C, and D belong to CLASS5. CLASS6 has only one member.
+
+Siblings
+
+Bag siblings Bag(); siblings.PUT("A","s1"); siblings.PUT("A","s2"); siblings.PUT("B","s11"); siblings.PUT("B","s21"); siblings.PUT("C","s12"); siblings.PUT("C","s22");
+
+A has siblings s1 and s2.
+
+B has siblings s11 and s21.
+
+C has siblings s12 and s22.
+
+Activities
+
+activity.PUT("s1","cricket"); activity.PUT("s2","read"); activity.PUT("s21","swim"); activity.PUT("s12","swim"); Each sibling is associated with an activity.
+
+Hierarchy Assembly
+
+tree.PUT(1, Member); tree.PUT(2, siblings); tree.PUT(3, activity); Members, siblings, and activities are added to the root tree.
+
+Updating Activities
+
+activity.remove("s1","cricket"); tree.remove(3, activity); tree.PUT(3, activity); For example, s1 stops playing cricket in 2005 and rejoins in 2025.
+
+Validation and Output
+
+        <PRINTLN>("output=" + tree.containsValue(Member)); <PRINTLN>("outputTree=" + tree);
+
+Checks if Member is a child of the root tree.
+
+Prints the entire tree hierarchy.
+
+==============================================================================
+
+🖥️ Program Output
+
+
+=============================================================================================================
+
+
+                                          MATH SIN@  and   COS@ Operations and  J7ARRAYS  Datastructures
+
+=============================================================================================================
+
+
+J7ARRAYS Data Structures
+
+This type of data structure is used to store items such as ArrayList and Structure types. It is capable of holding a large number of values compared to traditional arrays in most programming languages.
+
+
+Write a DotWeb5.0 program that performs the following tasks:
+
+Calculate and display the sine and cosine values of the number 10.
+
+Create an ArrayList and add several elements to it.
+
+Insert the ArrayList into a data structure.
+
+Print the elements of in ascending order.
+
+Print the elements of in descending order.
+
+MathandJ7Arrays.web
+
+<WEB>
+
+
+<PACK> Program8
+
+{
+
+    <CLASS> Prog
+
+    {
+
+        public void main()
+
+        {
+
+            <PRINTLN>("===============================");
+
+
+            // Use Math functions to find the Cosine and Sine values
+
+            <PRINTLN>("Sin value = " + Math.Sin(10));
+
+            <PRINTLN>("Cos value = " + Math.Cos(10));
+
+
+            <PRINTLN>("===============================");
+
+
+            // Create an ArrayList and add elements
+
+            CUTIL.ArrayList ar = new CUTIL.ArrayList();
+
+            ar.add(0, "wilmix1");
+
+            ar.add(1, "wilmix2");
+
+            ar.add(2, "wilmix3");
+
+            ar.add(3, "wilmix4");
+
+            ar.add(4, "wilmix5");
+
+
+            <PRINTLN>("J7ARRAYS in Java7.0");
+
+
+            // Create a J7ARRAYS object
+
+            <J7ARRAYS> u = new <J7ARRAYS>("Wilmix");
+
+
+            // Add integers and ArrayList elements to J7ARRAYS
+
+            for (int i = 100; i > 0; i--)
+
+            {
+
+                u.add("" + i);                 // Add integers
+
+                u.add("" + ar.ToString());     // Add ArrayList as string
+
+            }
+
+
+            // Retrieve specific elements
+
+            <PRINTLN>("Value at position 5  = " + u.ret(5));
+
+            <PRINTLN>("Value at position 11 = " + u.ret(11));
+
+            <PRINTLN>("Value at position 45 = " + u.ret(45));
+
+
+            // Sort in Ascending order and print
+
+            u.ASCENDSORT();
+
+            <PRINTLN>("Ascending Order: " + u.RET());
+
+
+            // Sort in Descending order and print
+
+            u.DESCENDSORT();
+
+            <PRINTLN>("Descending Order: " + u.RET());
+
+
+            <PRINTLN>("===============================");
+
+        }
+
+    }
+
+}
+
+🔎 Step-by-Step Explanation
+
+Program Start
+
+Prints a separator line (===============================) to mark the beginning.
+
+Math Functions
+
+Uses Math.Sin(10) to calculate the sine of 10.
+
+Uses Math.Cos(10) to calculate the cosine of 10.
+
+Prints both results.
+
+ArrayList Creation
+
+Creates a CUTIL.ArrayList named ar.
+
+Adds five string elements: "wilmix1", "wilmix2", "wilmix3", "wilmix4", "wilmix5".
+
+J7ARRAYS Initialization
+
+Creates a J7ARRAYS object u with the initial value "Wilmix".
+
+Runs a loop from 100 down to 1:
+
+Adds each integer (converted to string) into u.
+
+Also adds the ArrayList contents as a string.
+
+Element Retrieval
+
+Retrieves and prints the element at position 5.
+
+Retrieves and prints the element at position 11.
+
+Retrieves and prints the element at position 45.
+
+Sorting Demonstration
+
+Sorts the J7ARRAYS in ascending order using ASCENDSORT().
+
+Prints all values in ascending order with RET().
+
+Sorts the J7ARRAYS in descending order using DESCENDSORT().
+
+Prints all values in descending order with RET().
+
+Program End
+
+Prints another separator line (===============================) to mark the end.
+
+👉 In short, this program shows math operations (sin & cos), array handling, element retrieval, and sorting in DotWeb5.0.
+
+
+🖥️ Program Output
+
+===============================
+
+Sin value = -0.54402111088937
+
+Cos value = -0.839071529076452
+
+===============================
+
+J7ARRAYS  in  Java7.0
+
+Value=96
+
+Value=90
+
+56
+
+[1, 10, 100, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 3, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 4, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 5, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 6, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 7, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 8, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 9, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, [wilmix1, wilmix2, wilmix3, wilmix4, wilmix5]]
+
+[[wilmix1, wilmix2, wilmix3, wilmix4, wilmix5], 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 9, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 8, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 7, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 6, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 5, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 4, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 3, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 2, 19, 18, 17, 16, 15, 14, 13, 12, 11, 100, 10, 1]
+
+
+
+
+
+# 📘 Mask Data Structure
+
+
+---
+
+
+## 1️⃣ Introduction
+
+The **Mask Data Structure (Mask DTS)** is a **tree-based data structure** that also supports integration with **ArrayLists** and other structural elements.  
+
+- It **preserves insertion order**.  
+
+- Each Mask DTS instance consists of **two keys**:  
+
+  - **Primary Key** → the main identifier.  
+
+  - **Random Key** → an auxiliary identifier.  
+
+- After defining keys, you can pass **integers, strings, or any data type** into the structure.  
+
+
+---
+
+
+## 2️⃣ Example Usage
+
+
+Write a dotweb5.0 program to  create two array lists and add 10 datas to mask dts and add 
+
+3 set of  values and Mask dts will print in tree format automatically.
+
+
+Consider the following example:  
+
+
+Maskexample.web
+
+===============
+
+
+<WEB>
+
+
+<PACK> Makexample
+
+{
+
+
+public <CLASS> Makdts
+
+{
+
+
+public void main()
+
+{
+
+<PRINTLN>("===============================");
+
+
+<PRINTLN>("MASK  in  Java7.0");
+
+
+ CLIB.MASK root <NEW> CLIB.MASK("root1");
+
+
+
+CLIB.MASK root1 <NEW> CLIB.MASK("root2");
+
+
+		// Add 10 datas to the ArrayList
+
+CUTIL.ArrayList ar1 <NEW> CUTIL.ArrayList();
+
+      for (int i=0;i<10;i++)
+
+          ar1.add(i,i+3);
+
+
+// Add 10 datas to the ArrayList
+
+CUTIL.ArrayList ar11 <NEW> CUTIL.ArrayList();
+
+      for (int i=0;i<10;i++)
+
+          ar11.add(i,i+5);
+
+
+root.add("TreeA");
+
+root1.add("TreeB");
+
+
+//print the tree's size 
+
+		<PRINTLN>(root.size() );
+
+
+//print the tree's size 
+
+		<PRINTLN>(root1.size() );
+
+
+              //Here string root1 is the key and 45678 is the data and ar1 contains Arraylist data
+
+           root <NEW> CLIB.MASK("root1",ar1,45678);
+
+		
+
+		root  <NEW> CLIB.MASK("root2",ar11,45679);
+
+		root  <NEW> CLIB.MASK("root5",99121888,"5");
+
+		
+
+		root1  <NEW> CLIB.MASK("root3",12112,544);
+
+		
+
+		root1  <NEW> CLIB.MASK("root4",1211,54);
+
+		
+
+		root1  <NEW> CLIB.MASK("root51",121,5);
+
+                          
+
+<PRINTLN>("===============================");
+
+
+}
+
+
+}
+
+
+}
+
+
+Note:
+
+
+```java
+
+root <NEW> CLIB.MASK("root1", ar1, 45678);
+
+```
+
+
+- Here, `"root1"` is the **primary key**.  
+
+- `45678` is the **data value**.  
+
+- `ar1` contains **ArrayList data**.  
+
+
+This demonstrates that multiple sets of values can be added to the Mask Data Structure.  
+
+When values are added using the same instance (`root` or `root1`), the structure returns a **tree-format data type** as output.
+
+
+## 3️⃣ Output Behavior
+
+The Mask DTS prints input values in **tree format** while maintaining **insertion order**.  
+
+
+---
+
+
+## 4️⃣ Sample Output (Java 7.0)
+
+
+```text
+
+MASK in Java7.0
+
+2
+
+2
+
+[-8526742942261834865->
+
+-8526742942261834865->
+
+-8526742942261834865]
+
+[root1->
+
+root1->
+
+root1]
+
+[-8526742942261834865->
+
+45678->
+
+[[3, 4, 5, 6, 7, 8, 9, 10, 11, 12]]]
+
+[2460193834502673226->
+
+2460193834502673226->
+
+2460193834502673226]
+
+[root2->
+
+root2->
+
+root2]
+
+[2460193834502673226->
+
+45679->
+
+[[5, 6, 7, 8, 9, 10, 11, 12, 13, 14]]]
+
+[4202369142879245978->
+
+4202369142879245978->
+
+4202369142879245978]
+
+[root5->
+
+root5->
+
+root5]
+
+[4202369142879245978->
+
+5->
+
+[99121888]]
+
+[6731882546062678810->
+
+6731882546062678810->
+
+6731882546062678810]
+
+[root3->
+
+root3->
+
+root3]
+
+[6731882546062678810->
+
+544->
+
+[12112]]
+
+[3854722413359444045->
+
+3854722413359444045->
+
+3854722413359444045]
+
+[root4->
+
+root4->
+
+root4]
+
+[3854722413359444045->
+
+54->
+
+[1211]]
+
+[-660321338655634768->
+
+-660321338655634768->
+
+-660321338655634768]
+
+[root51->
+
+root51->
+
+root51]
+
+[-660321338655634768->
+
+5->
+
+[121]]
+
+```
+
+
+---
+
+
+## 5️⃣ Key Takeaways
+
+- ✅ **Tree-based structure** with insertion order preserved.  
+
+- ✅ Supports **multiple data types** (Integer, String, ArrayList, etc.).  
+
+- ✅ Each entry is defined by **two keys** (Primary + Random).  
+
+- ✅ Output is always in **tree format**.  
+
+
+---
+
+
+# 🌳 Mask Data Structure — Tree Representation
+
+
+```
+
+MaskDTS (Root)
+
+│
+
+├── root1 (Primary Key)
+
+│   ├── RandomKey: -8526742942261834865
+
+│   ├── Value: 45678
+
+│   └── ArrayList: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+│
+
+├── root2 (Primary Key)
+
+│   ├── RandomKey: 2460193834502673226
+
+│   ├── Value: 45679
+
+│   └── ArrayList: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+│
+
+├── root5 (Primary Key)
+
+│   ├── RandomKey: 4202369142879245978
+
+│   ├── Value: 5
+
+│   └── ArrayList: [99121888]
+
+│
+
+├── root3 (Primary Key)
+
+│   ├── RandomKey: 6731882546062678810
+
+│   ├── Value: 544
+
+│   └── ArrayList: [12112]
+
+│
+
+├── root4 (Primary Key)
+
+│   ├── RandomKey: 3854722413359444045
+
+│   ├── Value: 54
+
+│   └── ArrayList: [1211]
+
+│
+
+└── root51 (Primary Key)
+
+    ├── RandomKey: -660321338655634768
+
+    ├── Value: 5
+
+    └── ArrayList: [121]
+
+```
+
+
+---
+
+
+## 🔑 How to Read This Diagram
+
+- **Primary Key (rootX)** → The main identifier for each node.  
+
+- **Random Key** → A unique secondary identifier.  
+
+- **Value** → An integer or string associated with the node.  
+
+- **ArrayList** → A collection of values stored under the node.  
+
+
+---
+
+
+## 📌 Professional Notes
+
+- This structure is **hierarchical** and **ordered by insertion**.  
+
+- Each node can hold **multiple data types**.  
+
+- The **tree format output** makes traversal and visualization straightforward.  
+
+============================================================================================================
+
+                                                                                PIPE  Datastructure  With CLASS
+
+=============================================================================================================
+
+🚦 Pipe
+🎯 Purpose
+Maintains stateful behavior.
+
+Supports data flow between classes.
+
+Can add constructor values, method values, or object values from multiple classes and display them.
+
+
+📝 Syntax
+Pipe<> list = Pipe<>(STRING);
+
+list.KeyAdd();
+
+list.add();
+
+list.RandomAdd();
+
+list.Display(list);
+
+
+
+💻 Example: pipeexample.web
+<WEB>
+
+
+<PACK> pipesn
+
+{
+
+    public <CLASS> PipeA {
+
+        public string getValues() {
+
+            <PRINTLN>("I am PIPE A");
+
+            return "Positive";
+
+        }
+
+    }
+
+
+    public <CLASS> PipeC : PipeA {
+
+        public string getValues() {
+
+            <PRINTLN>("I am PIPE C");
+
+            return "Negative";
+
+        }
+
+    }
+
+
+    public <CLASS> PipeB {
+
+        public string getValues() {
+
+            <PRINTLN>("I am PIPE B");
+
+            return "Medium";
+
+        }
+
+    }
+
+
+    public <CLASS> Pipefinal {
+
+        public void main() {
+
+            <PRINTLN>("PIPE in Java7.0");
+
+
+            Pipe pipe <NEW> Pipe("BUCKETS");
+
+            PipeA pipes1 <NEW> PipeC();
+
+            PipeB pipes2 <NEW> PipeB();
+
+
+            pipe.KeyAdd("1101");
+
+            pipe.add(pipes1);
+
+            pipe.RandomAdd();
+
+            pipe.Display(pipe);
+
+            <PRINTLN>("" + pipe.DisplayO(pipe,0));
+
+
+            Pipe pipe1 <NEW> Pipe("BUCKETS1");
+
+            pipe1.KeyAdd("1102");
+
+            pipe1.add(pipes2);
+
+            pipe1.RandomAdd();
+
+            pipe1.Display(pipe1);
+
+            <PRINTLN>("" + pipe1.DisplayO(pipe1,1));
+
+
+            Pipe pipe2 <NEW> Pipe("BUCKETS of Pipe");
+
+            pipe2.KeyAdd("129089");
+
+            pipe2.add(pipes1.getValues());
+
+            pipe2.add(pipes2.getValues());
+
+            pipe2.RandomAdd();
+
+            pipe2.Display(pipe2);
+
+            <PRINTLN>("" + pipe2.DisplayO(pipe2,1));
+
+        }
+
+    }
+
+}
+
+
+
+📖 Explanation
+pipe.KeyAdd("1101"); → Adds key 1101.
+
+pipe.add(pipes1); → Adds object pipes1.
+
+pipe.RandomAdd(); → Adds a random number manually.
+
+pipe.Display(pipe); → Displays the pipe values.
+
+pipe.DisplayO(pipe,0); → Displays the value at location 0.
+
+👉 Note:
+
+PipeA pipes1 <NEW> PipeC(); means PipeC inherits from PipeA.
+
+The getValues() method is overridden in PipeC.
+
+When invoked, it executes the child class method (PipeC) instead of the parent (PipeA).
+
+
+📐 UML Class Diagram (Text Representation)
+
+
+                ┌───────────────────────┐
+
+                │       PipeA           │
+
+                ├───────────────────────┤
+
+                │ + getValues(): string │
+
+                └───────────▲───────────┘
+
+                            │ (inherits)
+
+                            │
+
+                ┌───────────────────────┐
+
+                │       PipeC           │
+
+                ├───────────────────────┤
+
+                │ + getValues(): string │
+
+                └───────────────────────┘
+
+
+
+                ┌───────────────────────┐
+
+                │       PipeB           │
+
+                ├───────────────────────┤
+
+                │ + getValues(): string │
+
+                └───────────────────────┘
+
+
+
+                ┌─────────────────────────────┐
+
+                │         Pipefinal           │
+
+                ├─────────────────────────────┤
+
+                │ + main(): void              │
+
+                └───────────┬────────────────┘
+
+                            │ uses
+
+                            │
+
+        ┌───────────────────┼───────────────────┐
+
+        │                   │                   │
+
+   ┌────▼─────┐        ┌────▼─────┐        ┌────▼─────┐
+
+   │  Pipe    │        │  PipeA   │        │  PipeB   │
+
+   │ (object) │        │ / PipeC  │        │          │
+
+   └──────────┘        └──────────┘        └──────────┘
+
+
+
+🔹 Explanation
+
+
+• 	PipeA: Base class with  returning .
+
+• 	PipeC: Inherits from , overrides  returning .
+
+• 	PipeB: Independent class with  returning .
+
+• 	Pipefinal: Contains  method. Creates  objects and uses  and .
+
+
+✨ This diagram shows both inheritance (PipeC → PipeA) and usage relationships (Pipefinal uses Pipe, PipeA/PipeC, PipeB).
+
+
+🖥️ Pipe Output
+PIPE in Java7.0
+
+[8929290914726757639->8929290914726757639->8929290914726757639]
+
+[BUCKETS->BUCKETS->BUCKETS]
+
+[1101->1101->pipesn.PipeC]
+
+[BUCKETS->BUCKETS->BUCKETS]
+
+[1101->1101->pipesn.PipeC]
+
+[BUCKETS->BUCKETS->BUCKETS]
+
+[4381897666345927633->4381897666345927633->4381897666345927633]
+
+[BUCKETS1->BUCKETS1->BUCKETS1]
+
+[1102->1102->pipesn.PipeB]
+
+[BUCKETS1->BUCKETS1->BUCKETS1]
+
+[1102->1102->pipesn.PipeB]
+
+[1102->pipesn.PipeB->1102]
+
+[4287233612369726592->4287233612369726592->4287233612369726592]
+
+ I am PIPE A
+
+ I am PIPE B
+
+[BUCKETS of Pipe->BUCKETS of Pipe->BUCKETS of Pipe]
+
+[129089->129089->Positive]
+
+[BUCKETS of Pipe->BUCKETS of Pipe->BUCKETS of Pipe]
+
+[129089->129089->Positive]
+
+[129089->Positive->129089]
+
+
+
+🔑 Key Takeaways for Technical Folks
+Pipe acts like a container that can hold keys, objects, and values.
+
+Inheritance works as expected: child class overrides parent’s method.
+
+RandomAdd introduces variability in stored values.
+
+Display & DisplayO provide structured output and indexed retrieval.
+
+
+===========================================================================================================
+
+
+                                                                                                        EXTEND  DATASTRUCTURE
+
+======================================================================================
+
+
+📘 EXTEND Datastructure
+
+🔹 Overview
+
+Extend behaves like Encapsulation in Java/.Net.
+
+Supports Add and Read operations (❌ Delete not allowed).
+
+Provides multiple inheritance (up to 100,000,000 classes).
+
+Functions like a Bucket containing classes with methods and values.
+
+Uses super key for values of any type.
+
+String values can be used as Table Headers.
+
+Allows adding class objects and random keys.
+
+🔹 Example Behavior
+
+Adding A1, A2 class objects produces:
+
+Exdexample.extendprog1+A1 Exdexample.extendprog1+A2 Instantiating class A15 and calling A15Print() prints:
+
+Iam a Young fellow
+
+and returns:
+
+Iam Age A15
+
+
+Write a Dotweb5.0 Program using Extend datastructure  add Randomkey,Values,15 Class with 15 methods and class objects.                  
+
+
+⚙️ Program: Extendexample.web
+
+<WEB>
+
+<PACK> Exdexample
+
+{
+
+<CLASS> extendprog1
+
+{
+
+
+public void main()
+
+{
+
+
+<PRINTLN>("===============================");
+
+<PRINTLN>("EXTEND  in  Java7.0");
+
+
+CLIB.EXTEND list <NEW> CLIB.EXTEND("jem");
+
+	
+
+		      list.KeyAdd("1101");  
+
+                    
+
+                     list.add("SNO,");
+
+                     list.add("SchoolName,");
+
+                     list.add("StudentName,");
+
+                     list.add("Section A,");
+
+                     list.add("Subject1,");
+
+                     list.add("Subject2,");
+
+                     list.add("Subject3,");
+
+                     list.add("Subject4,");
+
+                     list.add("Subject5,");
+
+                    list.add("TotalMark,");
+
+                    list.add("Status,");
+
+                    list.add("GRADE");
+
+                    list.RandomAdd(); 
+
+                    <PRINTLN>("*************************************************************************");
+
+
+                     list.add("[");
+
+                     list.add("1,");
+
+                     list.add("EDWillMottSchool,");
+
+                     list.add("Andrew,");
+
+                     list.add("A1,");
+
+                     list.add("75,");
+
+                     list.add("75,");
+
+                     list.add("75,");
+
+                     list.add("75,");
+
+                     list.add("75,");
+
+                    list.add("375,");
+
+                    list.add("Distinction,");
+
+                    list.add("B"); 
+
+                     list.add("]");
+
+                    list.RandomAdd();   
+
+                    list.KeyAdd("Schools");                   
+
+                    list.add(new A1());
+
+                    list.add(new A2());
+
+                    list.add(new A3());
+
+                    list.add(new A4());
+
+                    list.add(new A5());
+
+                    list.add(new A6());
+
+                    list.add(new A7());
+
+                    list.add(new A8());
+
+                    list.add(new A9());
+
+                    list.add(new A10());
+
+                     
+
+                    list.add(new A11());
+
+                    list.add(new A12());
+
+                    list.add(new A13());
+
+                    list.add(new A14());
+
+                    A15 a15 <NEW> A15();
+
+                    list.add(a15.A15Print());
+
+                    
+
+<PRINTLN>("For Extend we  can store and retrieve the data , but can't  delete it");                                    
+
+<PRINTLN>("*************************************************************************");
+
+for(int i=0;i<list.sizefordata();i++)
+
+                    
+
+<PRINTLN>(""+ list.getVal(i));
+
+
+<PRINTLN>("*************************************************************************");
+
+
+}
+
+// 15 classes and  15 methods
+
+public <CLASS> A1
+
+{
+
+
+public void A1Print()
+
+{
+
+
+<PRINTLN>("Iam A1");
+
+}
+
+
+}
+
+
+public <CLASS> A2
+
+{
+
+
+public void A2Print()
+
+{
+
+
+<PRINTLN>("Iam A2");
+
+}
+
+
+}
+
+
+public <CLASS> A3
+
+{
+
+
+public void A3Print()
+
+{
+
+
+<PRINTLN>("Iam A3");
+
+}
+
+
+}
+
+
+public <CLASS> A4
+
+{
+
+
+public void A4Print()
+
+{
+
+
+<PRINTLN>("Iam A4");
+
+}
+
+
+}
+
+
+public <CLASS> A5
+
+{
+
+
+public void A5Print()
+
+{
+
+
+<PRINTLN>("Iam A5");
+
+}
+
+
+}
+
+
+public <CLASS> A6
+
+{
+
+
+public void A6Print()
+
+{
+
+
+<PRINTLN>("Iam A6");
+
+}
+
+
+}
+
+
+public <CLASS> A7
+
+{
+
+
+public void A7Print()
+
+{
+
+
+<PRINTLN>("Iam A7");
+
+}
+
+
+}
+
+
+
+public <CLASS> A8
+
+{
+
+
+public void A8Print()
+
+{
+
+
+<PRINTLN>("Iam A8");
+
+}
+
+
+}
+
+
+public <CLASS> A9
+
+{
+
+
+public void A9Print()
+
+{
+
+
+<PRINTLN>("Iam A9");
+
+}
+
+
+}
+
+
+public <CLASS> A10
+
+{
+
+
+public void A10Print()
+
+{
+
+
+<PRINTLN>("Iam A10");
+
+}
+
+
+}
+
+
+public <CLASS> A11
+
+{
+
+
+public void A11Print()
+
+{
+
+
+<PRINTLN>("Iam A11");
+
+}
+
+
+}
+
+
+public <CLASS> A12
+
+{
+
+
+public void A12Print()
+
+{
+
+
+<PRINTLN>("Iam A12");
+
+}
+
+
+}
+
+
+public <CLASS> A13
+
+{
+
+
+public void A13Print()
+
+{
+
+
+<PRINTLN>("Iam A13");
+
+}
+
+
+}
+
+
+
+public <CLASS> A14
+
+{
+
+
+public void A14Print()
+
+{
+
+
+<PRINTLN>("Iam A14");
+
+}
+
+
+}
+
+
+public <CLASS> A15
+
+{
+
+
+public string A15Print()
+
+{
+
+
+<PRINTLN>("Iam a Young fellow");
+
+return("Iam Age A15");
+
+}
+
+}
+
+}
+
+}
+
+
+🔄 Flow Diagram: Extend Datastructure
+               ┌───────────────────────┐
+
+                │   EXTEND Datastructure │
+
+                │   (Bucket of Classes)  │
+
+                └───────────┬───────────┘
+
+                            │
+
+        ┌───────────────────┼───────────────────┐
+
+        │                   │                   │
+
+   ┌────▼─────┐        ┌────▼─────┐        ┌────▼─────┐
+
+   │  KeyAdd  │        │ RandomAdd│        │   Add    │
+
+   │ (Assign  │        │ (Insert  │        │ (Insert  │
+
+   │ Unique   │        │ Random   │        │ Values & │
+
+   │ Keys)    │        │ Entries) │        │ Objects) │
+
+   └────▲─────┘        └────▲─────┘        └────▲─────┘
+
+        │                   │                   │
+
+        └───────────┬───────┴───────┬───────────┘
+
+                    │               │
+
+             ┌──────▼──────┐   ┌────▼───────┐
+
+             │ Class Obj   │   │ String/Int │
+
+             │ (A1–A15)    │   │ Values     │
+
+             │ Methods →   │   │ (Headers,  │
+
+             │ Output Data │   │ Marks etc.)│
+
+             └──────▲──────┘   └────▲───────┘
+
+                    │               │
+
+                    └───────┬───────┘
+
+                            │
+
+                  ┌─────────▼─────────┐
+
+                  │   Retrieval Only   │
+
+                  │   (No Deletion)    │
+
+                  └────────────────────┘
+
+
+
+🔹 Explanation of Flow
+
+EXTEND Datastructure acts as a central bucket.
+
+KeyAdd → Assigns unique keys to stored data.
+
+RandomAdd → Inserts random entries for variety.
+
+Add → Allows insertion of values (headers, marks, etc.) and class objects.
+
+Class Objects (A1–A15) → Each has its own method, producing outputs like "Iam A1", "Iam a Young fellow".
+
+Retrieval → Data can be read back in sequence.
+
+❌ No Deletion → Once added, data stays permanently.
+
+
+✨ This diagram shows the data flow from class methods and values into the Extend bucket, and how retrieval works.
+
+
+
+🖥️ Output
+
+
+===============================
+
+EXTEND  in  Java7.0
+
+[-802204435687571817->
+
+-802204435687571817->
+
+-802204435687571817]
+
+*************************************************************************
+
+Iam a Young fellow
+
+For Extend we  can store and retrieve the data , but can't  delete it
+
+*************************************************************************
+
+jem
+
+SNO,
+
+SchoolName,
+
+StudentName,
+
+Section A,
+
+Subject1,
+
+Subject2,
+
+Subject3,
+
+Subject4,
+
+Subject5,
+
+TotalMark,
+
+Status,
+
+GRADE
+
+[
+
+1,
+
+EDWillMottSchool,
+
+Andrew,
+
+A1,
+
+75,
+
+75,
+
+75,
+
+75,
+
+75,
+
+375,
+
+Distinction,
+
+B
+
+]
+
+Exdexample.extendprog1+A1
+
+Exdexample.extendprog1+A2
+
+Exdexample.extendprog1+A3
+
+Exdexample.extendprog1+A4
+
+Exdexample.extendprog1+A5
+
+Exdexample.extendprog1+A6
+
+Exdexample.extendprog1+A7
+
+Exdexample.extendprog1+A8
+
+Exdexample.extendprog1+A9
+
+Exdexample.extendprog1+A10
+
+Exdexample.extendprog1+A11
+
+Exdexample.extendprog1+A12
+
+Exdexample.extendprog1+A13
+
+Exdexample.extendprog1+A14
+
+Iam Age A15
+
+*************************************************************************
+
+
+=========================================================================================================
+
+                                                                                                    LARRAY DATASTRUCTURE
+
+===============================================================================================================
+
+🌟 DotWeb 5.0 Program: ArraysExample
+
+✨ Introduction
+
+In this program, we explore the use of LArray from the CLIB package and compare it with the ArrayList from the CUTIL and packages.
+The focus is on how LArray differs from a traditional ArrayList in terms of data handling, printing, and flexibility.
+
+🔍 What is the Use of LArray?
+
+LArray belongs to the CLIB package.
+
+Unlike ArrayList, which can only store one datatype at a time, LArray allows multiple datatypes such as integers, strings, and ArrayList data.
+
+However, LArray does not accept objects; it only works with primitive values and collections.
+
+It also has a unique feature: it can print data in a tree format, which is not possible with a standard ArrayList.
+
+🎯 Why Do We Focus on LArray?
+
+We focus on LArray because:
+
+It provides flexibility in storing mixed datatypes.
+
+It supports tree-format printing, making data visualization easier.
+
+It allows removal of elements and returns them as an .ArrayList, which can then be manipulated further (e.g., removing the 2nd element with ar55.remove(1)).
+
+
+💻 DotWeb 5.0 Program Code
+
+
+ArraysExample.web
+
+<WEB>
+
+<PACK> ArraysExample
+
+{
+
+    public <CLASS> StandardArray
+
+    {
+
+        public void main()
+
+        {
+
+            CLIB.LArray larray = new CLIB.LArray("school");
+
+            CUTIL.ArrayList arraylist = new CUTIL.ArrayList();
+
+
+            for(int i = 0; i < 10; i++)
+
+                arraylist.add(i, i);
+
+
+            larray.add("wilmix");
+
+            larray.add("jemin");
+
+            larray.add("shalom");
+
+            larray.add("1010");
+
+            larray.add("101");
+
+            larray.add("201");
+
+            larray.add(arraylist.ToString());
+
+            larray.add("100000000");
+
+            larray.add(arraylist.ToString());
+
+
+            larray.printTree();
+
+
+            <OJ7UTIL>.ArrayList ar55 = larray.remove("201");
+
+            <PRINTLN>(ar55);
+
+
+            ar55.remove(1);
+
+            <PRINTLN>(ar55);
+
+
+            <PRINTLN>("*************************************************************************");
+
+        }
+
+    }
+
+}
+
+
+
+📊 Output
+
+[shalom, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], jemin, 101, school, 100000000, wilmix, 1010]
+
+[shalom, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], jemin, 101, school, 100000000, wilmix, 1010]
+
+
+🌟 Key Attractions
+
+• 	LArray vs ArrayList: LArray supports multiple datatypes and tree-format printing, while ArrayList is limited to one datatype.
+
+• 	Element Removal: Removing  returns an ArrayList () that can be further modified.
+
+• 	Flexibility: LArray allows adding integers, strings, and ArrayList data together.
+
+• 	Tree Printing: A unique feature that makes data representation more structured.
+
+
+📐 UML Class Diagram (Textual Representation)
+
+
++-------------------+
+
+|      LArray       |   <<class>> (CLIB package)
+
++-------------------+
+
+| - elements : List |
+
++-------------------+
+
+| + add(value)      |
+
+| + remove(value)   : ArrayList (OJ7UTIL) |
+
+| + printTree()     |
+
++-------------------+
+
+          |
+
+          | uses
+
+          v
+
++-------------------+
+
+|    ArrayList      |   <<class>> (CUTIL / OJ7UTIL package)
+
++-------------------+
+
+| - items : List    |
+
++-------------------+
+
+| + add(index, val) |
+
+| + remove(index)   |
+
+| + toString()      |
+
++-------------------+
+
+
+🔎 Explanation of Relationships
+
+• 	LArray → ArrayList
+
+• 	 internally uses  for storing and manipulating values.
+
+• 	When you call  on , it returns an  object from the  package.
+
+• 	Attributes
+
+• 	 → Represents the internal storage of values (Strings, Integers, ArrayList data).
+
+• 	Methods
+
+• 	 → Adds a new element (supports multiple datatypes except objects).
+
+• 	 → Removes an element and returns it as an .
+
+• 	 → Prints the elements in a tree-like structure.
+
+
+🌟 Attraction Points
+
+• 	Flexibility: Unlike a normal ,  can store mixed datatypes.
+
+• 	Tree Printing: Provides a structured visualization of data.
+
+• 	Integration: Works seamlessly with from  and  packages.
+
+
+==============================================================================================================                                                                                                                         
+
+                                                                                    TREE  DATASTRUCTURE
+
+===============================================================================================================
+
+
+A tree data structure is a hierarchical model used in computer science to organize data in a parent–child relationship, where the topmost node is called the root and each node may have zero or more children. It is widely used for representing hierarchical data such as file systems, organizational charts, and databases.
+
+
+🌳 Definition of Tree Data Structure
+
+• 	A tree is a non-linear data structure consisting of nodes connected by edges.
+
+• 	The root node is the topmost node, with no parent.
+
+• 	Each node can have child nodes, and those children can themselves be roots of subtrees.
+
+• 	There are no cycles in a tree, meaning no node can be its own ancestor.
+
+• 	Trees are often visualized upside down compared to real trees, with the root at the top and branches extending downward.
+
+
+🔑 Key Terminologies
+
+• 	Root Node: The starting point of the tree (e.g.,  in a file system).
+
+• 	Parent Node: A node that has children.
+
+• 	Child Node: A node that descends from a parent.
+
+• 	Leaf Node: A node with no children (end of a branch).
+
+• 	Subtree: A smaller tree structure within a larger tree.
+
+• 	Depth: The number of edges from the root to a node.
+
+• 	Height: The longest path from the root to a leaf.
+
+
+⚡ Applications of Trees
+
+File Systems: Organizing directories and files.
+
+Databases: Indexing and searching (e.g., B-trees).
+
+Networking: Routing tables and hierarchical structures.
+
+Artificial Intelligence: Decision trees for machine learning.
+
+Compilers: Abstract syntax trees for parsing code.
+
+
+🚀 Why Trees Are Important
+
+• 	They allow efficient searching and sorting.
+
+• 	They represent hierarchical relationships naturally.
+
+• 	They support recursive algorithms due to their branching structure.
+
+• 	They are foundational in data indexing, AI, and operating systems.
+
+
+Note: In short, a tree is a hierarchical, non-linear data structure made of nodes and edges, ideal for representing relationships and enabling efficient operations in computing.
+
+
+Write a  Dotweb5.0 Program  to create a Tree  and 10 elements  , print the tree's size and contents
+
+TreeExample.web
+
+<WEB>
+
+ 
+
+<PACK> TreeExample
+
+{
+
+public <CLASS> CreateTree
+
+{
+
+public void main()
+
+{
+
+   <PRINTLN>("*************************************************************************");
+
+
+<PRINTLN>("Tree  in  Java7.0");
+
+
+//create the tree
+
+		CLIB.Tree roots <NEW> CLIB.Tree("root");
+
+		for (int i = 0; i < 10; i = i + 1)
+
+		{
+
+			roots.add("item " + i);
+
+		}
+
+
+		//print the tree's size and contents
+
+		<PRINTLN>(roots.size() + "\n\n");       
+
+                <PRINTLN>(CLIB.Tree.datas + "\n\n");
+
+}
+
+
+}
+
+
+}
+
+
+
+📊 Output
+
+
+ 11
+
+
+[item 5, item 9, item 1, item 3, item 7, root, item 4, item 8, item 0, item 2, item 6]
+
+
+🎨 Beautified Layout
+
+
+                🟢 root
+
+        ┌─────────┼─────────┐
+
+      🔵 item 5   🔵 item 9   🔵 item 1
+
+       /   \       /   \       /   \
+
+   🟡 item 3 🟡 item 7 🟡 item 4 🟡 item 8 🟡 item 0
+
+                          / \
+
+                     🟡 item 2 🟡 item 6
+
+
+✨ Highlights
+
+
+Root Node → root
+
+Children Nodes → item 5, item 9, item 1
+
+Leaf Nodes → item 3, item 7, item 4, item 8, item 0, item 2, item 6
+
+Total Nodes → 11
+
+
+
