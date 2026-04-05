@@ -352,6 +352,20 @@ DOTWEB5.0 is a powerful programming language developed by Wilmix Jemin J of Jemi
 It is distributed under a dual licensing model, combining both GNU GPL v3 and MIT licenses depending on the edition.
 
 
+Reference
+=========
+
+Refer Dotweb5.0 Home at Google sites => https://sites.google.com/view/dotweb5programmingtutorial/home
+
+Refer Dotweb5.0 Tutorial at Google sites => https://sites.google.com/view/dotweb5programmingtutorial/dotweb5-tutorial
+
+Refer Dotweb5.0 Samples at Google sites => https://sites.google.com/view/dotweb5programmingtutorial/dotweb5oj7-samples
+
+
+
+
+
+
 
 
 
